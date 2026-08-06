@@ -85,6 +85,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
+        <link rel="icon" href="/logo-circle.jpg" type="image/jpeg" />
+        <link rel="shortcut icon" href="/logo-circle.jpg" type="image/jpeg" />
+        <link rel="apple-touch-icon" href="/logo-circle.jpg" />
         <SchemaScript schemaData={localSchema} />
       </head>
       <body
