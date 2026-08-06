@@ -8,7 +8,7 @@ import { Camera, Sparkles } from "lucide-react";
 export const metadata = {
   title: "Lounge Gallery & Visual Showcase | DPS Gaming Hub Korani",
   description:
-    "Explore the high-resolution visual gallery of DPS Gaming Hub Korani. Luxury dark gaming interior, 120Hz displays, DualSense Edge controllers, and VIP recliners.",
+    "Explore the high-resolution visual gallery of DPS Gaming Hub Korani. Luxury dark gaming interior, Ultra High-Definition displays, DualSense Edge controllers, and VIP recliners.",
 };
 
 const GALLERY_IMAGES = [
@@ -25,7 +25,7 @@ const GALLERY_IMAGES = [
     aspect: "col-span-1 row-span-1",
   },
   {
-    title: "120Hz 4K OLED Setup",
+    title: "Ultra High-Definition OLED Setup",
     category: "Display Tech",
     src: "/lounge-setup.png",
     aspect: "col-span-1 row-span-1",

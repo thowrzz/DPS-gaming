@@ -42,7 +42,7 @@ export default function AboutPage() {
               Digital Product Solutions envisioned a venue where gamers, software developers from Technopark, and console enthusiasts from Attingal could experience PlayStation 5 hardware in an environment designed with Apple HIG principles.
             </p>
             <p className="text-[#94A3B8] text-sm leading-relaxed">
-              We replaced noisy, dim rooms with acoustic wall paneling, clean ambient lighting, 120Hz 4K displays, and ergonomic leather recliners. Everything is measured on an 8px grid system for visual harmony.
+              We replaced noisy, dim rooms with acoustic wall paneling, clean ambient lighting, Ultra High-Definition displays, and ergonomic leather recliners. Everything is measured on an 8px grid system for visual harmony.
             </p>
           </div>
 
@@ -68,7 +68,7 @@ export default function AboutPage() {
             </div>
             <h3 className="text-xl font-bold text-white">Uncompromised Tech</h3>
             <p className="text-sm text-[#94A3B8]">
-              Native 4K HDR displays with 120Hz high frame-rate rendering and low-latency fiber internet.
+              Ultra High-Definition displays with smooth high frame-rate rendering and low-latency fiber internet.
             </p>
           </GlassCard>
 

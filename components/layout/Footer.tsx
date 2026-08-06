@@ -36,7 +36,7 @@ export function Footer() {
             </Link>
 
             <p className="text-sm text-[#94A3B8] leading-relaxed max-w-md">
-              Kerala's most premium PS5 gaming lounge experience. Engineered with 120Hz 4K displays, DualSense Edge technology, and luxury lounge seating at Korani, between Attingal and Kazhakkoottam.
+              Kerala's most premium PS5 gaming lounge experience. Engineered with Ultra High-Definition displays, DualSense Edge technology, and luxury lounge seating at Korani, between Attingal and Kazhakkoottam.
             </p>
 
             {/* Address & Direct Contact Pill */}

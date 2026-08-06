@@ -20,7 +20,7 @@ export default function PricingPage() {
           Gaming Passes & <span className="text-gradient-blue">Hourly Rates</span>
         </h1>
         <p className="text-[#CBD5E1] text-base sm:text-lg max-w-2xl mx-auto">
-          No hidden lounge surcharges. Play on 120Hz 4K PS5 setups with luxury seating.
+          No hidden lounge surcharges. Play on Ultra High-Definition PS5 setups with luxury seating.
         </p>
       </div>
 

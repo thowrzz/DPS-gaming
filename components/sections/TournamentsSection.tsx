@@ -55,7 +55,7 @@ export function TournamentsSection() {
               <div className="space-y-2">
                 <h3 className="text-2xl font-black text-white">Kerala EA FC 24 Champions Cup</h3>
                 <p className="text-sm text-[#94A3B8]">
-                  1v1 Knockout tournament on 120Hz 4K displays. Official competitive rules and cash prize pool to be announced soon.
+                  1v1 Knockout tournament on Ultra High-Definition displays. Official competitive rules and cash prize pool to be announced soon.
                 </p>
               </div>
 

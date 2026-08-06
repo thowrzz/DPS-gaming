@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     "Gaming Korani",
     "Gaming Near Technopark",
     "Best PS5 Gaming Lounge in Kerala",
-    "120Hz Gaming Lounge Kerala",
+    "Ultra High-Definition Gaming Lounge Kerala",
     "Console Gaming Attingal",
     "EA FC 24 Tournament Kerala",
   ],

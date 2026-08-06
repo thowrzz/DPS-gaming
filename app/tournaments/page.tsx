@@ -39,9 +39,9 @@ export default function TournamentsPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <GlassCard className="space-y-3">
             <ShieldCheck className="w-8 h-8 text-[#38BDF8]" />
-            <h3 className="text-lg font-bold text-white">120Hz Hardware Standard</h3>
+            <h3 className="text-lg font-bold text-white">Ultra High-Definition Standard</h3>
             <p className="text-xs text-[#94A3B8]">
-              All tournament matches will be played on 120Hz 4K displays with DualSense Edge pro controllers.
+              All tournament matches will be played on Ultra High-Definition displays with DualSense Edge pro controllers.
             </p>
           </GlassCard>
 

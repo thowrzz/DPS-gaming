@@ -19,13 +19,13 @@ import { BadgeTag } from "@/components/ui/BadgeTag";
 const FEATURES_DATA = [
   {
     icon: Gamepad2,
-    title: "Premium PS5 Consoles",
-    description: "Every station features high-speed custom SSDs and native 4K ray-tracing performance.",
+    title: "PS5 Flagship Consoles",
+    description: "Every station features high-speed custom SSDs and ray-tracing performance.",
   },
   {
     icon: Tv,
-    title: "120Hz High Refresh Displays",
-    description: "Ultra-low latency HDMI 2.1 displays with Variable Refresh Rate (VRR) for zero screen tearing.",
+    title: "Ultra High-Definition Displays",
+    description: "Ultra-responsive high-definition display panels with Variable Refresh Rate (VRR) for zero input lag.",
   },
   {
     icon: Clock,

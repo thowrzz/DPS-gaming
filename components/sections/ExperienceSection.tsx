@@ -42,11 +42,11 @@ export function ExperienceSection() {
           <div className="lg:col-span-5 p-8 sm:p-12 space-y-6">
             <BadgeTag variant="outline">Display Precision</BadgeTag>
             <h3 className="text-2xl sm:text-4xl font-extrabold text-white tracking-tight leading-tight">
-              120Hz 4K Gaming Displays. <br />
+              Ultra High-Definition Gaming Displays. <br />
               Zero Lag. Pure Clarity.
             </h3>
             <p className="text-[#CBD5E1] text-sm sm:text-base leading-relaxed">
-              Every millisecond matters in competitive gaming. Our custom HDMI 2.1 panels deliver true 120 FPS high frame-rate rendering for EA FC 24 and Tekken 8, giving you the crispest visual fidelity in Kerala.
+              Every millisecond matters in competitive gaming. Our custom HDMI 2.1 panels deliver true high frame-rate rendering for FIFA, eFootball, and Tekken 8, giving you the crispest visual fidelity in Kerala.
             </p>
           </div>
         </motion.div>

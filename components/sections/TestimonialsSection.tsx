@@ -13,7 +13,7 @@ const REVIEWS_LIST = [
     location: "Kazhakkoottam",
     rating: 5,
     comment:
-      "Finally a gaming lounge in Kerala that feels like an Apple store instead of an RGB basement. The 120Hz high refresh displays and clean acoustic vibe make EA FC 24 incredible to play with friends.",
+      "Finally a gaming lounge in Kerala that feels like an Apple store instead of an RGB basement. The Ultra High-Definition displays and clean acoustic vibe make EA FC 24 incredible to play with friends.",
   },
   {
     name: "Rahul S.",

@@ -30,7 +30,7 @@ export function BookingCTA() {
           </h2>
 
           <p className="text-[#CBD5E1] text-base sm:text-lg max-w-xl mx-auto leading-relaxed">
-            Lock in your 120Hz 4K PS5 console station at Korani lounge between Attingal and Kazhakkoottam. Zero waiting time.
+            Lock in your Ultra High-Definition PS5 console station at Korani lounge between Attingal and Kazhakkoottam. Zero waiting time.
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-4 pt-4">

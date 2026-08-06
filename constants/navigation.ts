@@ -21,7 +21,7 @@ export const FOOTER_SECTIONS = [
     title: "Experience",
     links: [
       { label: "PS5 Lounge Experience", href: "/gaming" },
-      { label: "120Hz 4K Displays", href: "/gaming#display" },
+      { label: "Ultra High-Definition Displays", href: "/gaming#display" },
       { label: "DualSense Edge Gear", href: "/gaming#controllers" },
       { label: "3D Audio Lounge", href: "/gaming#audio" },
       { label: "VIP Private Rooms", href: "/membership" },

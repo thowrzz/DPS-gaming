@@ -32,7 +32,7 @@ export default function GamingPage() {
           <span className="text-gradient-blue">50+ PS5 Titles.</span>
         </h1>
         <p className="text-[#CBD5E1] text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-          From 120Hz EA FC 24 duels to high-resolution Ray-Traced single player masterpieces on 120Hz 4K displays.
+          From high frame-rate FIFA & eFootball duels to high-resolution Ray-Traced single player masterpieces on Ultra High-Definition displays.
         </p>
       </section>
 
@@ -106,9 +106,9 @@ export default function GamingPage() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <GlassCard id="display" className="space-y-4">
             <Tv className="w-8 h-8 text-[#38BDF8]" />
-            <h3 className="text-lg font-bold text-white">120Hz High Refresh Displays</h3>
+            <h3 className="text-lg font-bold text-white">Ultra High-Definition Displays</h3>
             <p className="text-xs text-[#94A3B8] leading-relaxed">
-              4K HDR OLED panels with 120 FPS high frame-rate mode and Variable Refresh Rate (VRR) to eliminate input lag.
+              Ultra High-Definition panels with smooth high frame-rate mode and Variable Refresh Rate (VRR) to eliminate input lag.
             </p>
           </GlassCard>
 

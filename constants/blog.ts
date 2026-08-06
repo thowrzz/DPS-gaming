@@ -15,7 +15,7 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "best-ps5-games-in-kerala",
     title: "Top 8 Must-Play PS5 Games at DPS Gaming Hub Kerala in 2026",
-    excerpt: "From 120Hz high frame-rate matches in EA FC 24 to the visceral haptics of Tekken 8, explore the ultimate game lineup in Trivandrum.",
+    excerpt: "From high frame-rate matches in EA FC 24 and eFootball to the visceral haptics of Tekken 8, explore the ultimate game lineup in Trivandrum.",
     date: "August 2026",
     readTime: "5 min read",
     category: "Game Guides",
@@ -25,20 +25,20 @@ export const BLOG_POSTS: BlogPost[] = [
     content: `
 # Top 8 Must-Play PS5 Games at DPS Gaming Hub Kerala
 
-When stepping into a luxury PS5 lounge equipped with 120Hz 4K displays and DualSense Edge controllers, not all games are created equal. Some titles truly shine when paired with flagship display hardware and tactile haptic feedback.
+When stepping into a luxury PS5 lounge equipped with Ultra High-Definition displays and DualSense Edge controllers, not all games are created equal. Some titles truly shine when paired with flagship display hardware and tactile haptic feedback.
 
 Here is our curated list of the top games to experience at **DPS Gaming Hub** in Korani, between Attingal and Kazhakkoottam.
 
 ---
 
-### 1. EA SPORTS FC 24 (120Hz Smoothness)
-Football gaming in Kerala is a lifestyle. On our 4K 120Hz setups, EA FC 24 runs with fluid motion responsiveness, making precision pass timing and tactical defense feel instantaneous.
+### 1. FIFA / EA SPORTS FC 24 (Smooth Performance)
+Football gaming in Kerala is a lifestyle. On our Ultra High-Definition setups, EA FC 24 runs with fluid motion responsiveness, making precision pass timing and tactical defense feel instantaneous.
 
 ### 2. Tekken 8 (Unreal Engine 5 Fighting Mastery)
 With zero input latency on wired DualSense controllers, Tekken 8 delivers bone-crunching combos and 60FPS lock essential for competitive fighting tournaments.
 
 ### 3. Gran Turismo 7 (Adaptive Trigger Simulation)
-Experience real gear shifting and braking pressure through adaptive triggers while racing around Nürburgring in 4K Ray-Tracing mode.
+Experience real gear shifting and braking pressure through adaptive triggers while racing around Nürburgring in Ray-Tracing mode.
 
 ### 4. Marvel's Spider-Man 2
 Traverse New York City with zero loading screen delays using PS5's high-speed custom SSD.
@@ -49,7 +49,7 @@ Immerse yourself in Kratos' journey enhanced by 3D Spatial Audio headsets and de
 ---
 
 ## Visit DPS Gaming Hub
-Book your 120Hz gaming session today at Korani, between Attingal and Kazhakkoottam.
+Book your gaming session today at Korani, between Attingal and Kazhakkoottam.
 `,
   },
   {
@@ -70,7 +70,7 @@ Located just 5 minutes from Attingal KSRTC station, DPS Gaming Hub was built wit
 ## What Makes Us Different?
 
 - **No Overloaded Cyberpunk Clichés**: Clean, sleek, acoustic dark rooms built for comfort.
-- **120Hz Displays**: Zero motion blur during fast-paced multiplayer duels.
+- **Ultra High-Definition Displays**: Zero motion blur during fast-paced multiplayer duels.
 - **Comfortable Seating**: Executive leather recliners designed for long gaming sessions.
 - **Complimentary Parking**: Highway frontage with direct parking for cars and bikes.
 

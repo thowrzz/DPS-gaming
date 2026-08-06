@@ -10,7 +10,7 @@ import { BookOpen, Clock, ArrowRight } from "lucide-react";
 export const metadata = {
   title: "DPS Gaming Journal & SEO Blog | PS5 Lounge Trivandrum",
   description:
-    "Read guides on best PS5 games, 120Hz display optimizations, esports tournament tips, and gaming lounge reviews near Attingal & Technopark.",
+    "Read guides on best PS5 games, high-definition display optimizations, esports tournament tips, and gaming lounge reviews near Attingal & Technopark.",
 };
 
 export default function BlogHubPage() {

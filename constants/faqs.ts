@@ -24,7 +24,7 @@ export const FAQS_LIST: FAQItem[] = [
     id: "faq-near-attingal",
     question: "Is there a PS5 Gaming Lounge near Attingal?",
     answer:
-      "Yes! DPS Gaming Hub in Korani is the premier 24/7 PS5 gaming lounge serving Attingal, Kazhakkoottam, Kaniyapuram, and Mangalapuram. We feature Apple-inspired luxury interiors, 120Hz Displays, and DualSense Edge controllers.",
+      "Yes! DPS Gaming Hub in Korani is the premier 24/7 PS5 gaming lounge serving Attingal, Kazhakkoottam, Kaniyapuram, and Mangalapuram. We feature Apple-inspired luxury interiors, Ultra High-Definition Displays, and DualSense Edge controllers.",
     category: "Location & Access",
   },
   {
@@ -38,7 +38,7 @@ export const FAQS_LIST: FAQItem[] = [
     id: "faq-displays",
     question: "What display technology and controllers do you provide?",
     answer:
-      "Every gaming station features high-grade 4K HDR displays supporting native 120Hz refresh rate and Variable Refresh Rate (VRR). Gamers play on PlayStation 5 consoles using DualSense and DualSense Edge wireless controllers.",
+      "Every gaming station features high-grade Ultra High-Definition HDR displays supporting Variable Refresh Rate (VRR). Gamers play on PlayStation 5 consoles using DualSense and DualSense Edge wireless controllers.",
     category: "Hardware & Displays",
   },
   {

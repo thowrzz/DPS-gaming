@@ -22,7 +22,7 @@ export function PricingSection() {
             <span className="text-gradient-blue">No Hidden Charges.</span>
           </h2>
           <p className="text-[#CBD5E1] text-base sm:text-lg">
-            Choose your pass. Reserve your PS5 station. Play on 120Hz 4K displays.
+            Choose your pass. Reserve your PS5 station. Play on Ultra High-Definition displays.
           </p>
         </div>
 

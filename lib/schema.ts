@@ -47,7 +47,7 @@ export function getLocalBusinessSchema() {
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "24/7 Access (Pre-Booking Only)", value: true },
       { "@type": "LocationFeatureSpecification", name: "PlayStation 5 Console Gaming", value: true },
-      { "@type": "LocationFeatureSpecification", name: "120Hz 4K Displays", value: true },
+      { "@type": "LocationFeatureSpecification", name: "Ultra High-Definition Displays", value: true },
       { "@type": "LocationFeatureSpecification", name: "DualSense Edge Controllers", value: true },
       { "@type": "LocationFeatureSpecification", name: "Air Conditioned Lounge", value: true },
       { "@type": "LocationFeatureSpecification", name: "Free Vehicle Parking", value: true },
