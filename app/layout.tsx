@@ -69,9 +69,12 @@ export const metadata: Metadata = {
     creator: "@dpsgaminghub",
   },
   icons: {
-    icon: "/logo-circle.jpg",
-    shortcut: "/logo-circle.jpg",
-    apple: "/logo-circle.jpg",
+    icon: [
+      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.png", type: "image/png" },
+    ],
+    shortcut: "/favicon.png",
+    apple: "/apple-icon.png",
   },
 };
 
@@ -85,9 +88,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark scroll-smooth">
       <head>
-        <link rel="icon" href="/logo-circle.jpg" type="image/jpeg" />
-        <link rel="shortcut icon" href="/logo-circle.jpg" type="image/jpeg" />
-        <link rel="apple-touch-icon" href="/logo-circle.jpg" />
+        <link rel="icon" href="/icon.png" type="image/png" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/apple-icon.png" />
         <SchemaScript schemaData={localSchema} />
       </head>
       <body
