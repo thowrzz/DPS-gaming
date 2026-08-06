@@ -7,6 +7,7 @@ export const SITE_CONFIG = {
   url: "https://gaming.digitalproductsolutions.in",
   launchStatus: "🚀 OPENING SOON",
   expectedLaunch: "Coming Soon in Korani",
+  lastUpdated: "2026-08-06",
   metaTitle: "DPS Gaming Hub | Premium PS5 Gaming Lounge in Attingal, Trivandrum",
   metaDescription:
     "Opening soon in Korani, between Attingal and Kazhakkoottam. 24/7 PS5 gaming (pre-booking only) on high-refresh-rate displays, multiplayer lounge, memberships, birthday packages, and tournaments.",
