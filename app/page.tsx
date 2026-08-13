@@ -1,5 +1,6 @@
 import React from "react";
 import { Hero } from "@/components/sections/Hero";
+import { RentalSection } from "@/components/sections/RentalSection";
 import { ComingSoonSection } from "@/components/sections/ComingSoonSection";
 import { Features } from "@/components/sections/Features";
 import { ExperienceSection } from "@/components/sections/ExperienceSection";
@@ -14,19 +15,22 @@ import { BookingCTA } from "@/components/sections/BookingCTA";
 export default function Home() {
   return (
     <div className="bg-[#030712] overflow-x-hidden">
-      {/* Full Viewport Hero */}
+      {/* Primary Focus: PS5 (₹949) & 43" QLED TV (₹3000) Rental Showcase + Lounge Hero */}
       <Hero />
 
-      {/* Opening Soon in Korani Highlight Section */}
+      {/* Doorstep Delivery Process & Event Use Cases */}
+      <RentalSection />
+
+      {/* Opening Soon in Korani Lounge Highlight */}
       <ComingSoonSection />
 
-      {/* Premium Features Section */}
+      {/* Premium Features & Hardware */}
       <Features />
 
-      {/* Experience Section - Large Apple Style Story Cards */}
+      {/* Experience Section */}
       <ExperienceSection />
 
-      {/* Pricing Section */}
+      {/* Pricing Section (Rentals & In-Lounge Passes) */}
       <PricingSection />
 
       {/* Membership Tiers Section */}

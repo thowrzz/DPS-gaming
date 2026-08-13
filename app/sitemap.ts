@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   const staticRoutes = [
     "",
+    "/rentals",
     "/about",
     "/gaming",
     "/pricing",
@@ -23,8 +24,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
-    priority: route === "" ? 1.0 : 0.8,
+    priority: route === "" || route === "/rentals" ? 1.0 : 0.8,
   }));
+
 
   const localRoutes = Object.values(LOCAL_PAGES).map((page) => ({
     url: `${baseUrl}/location/${page.slug}`,

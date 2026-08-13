@@ -2,15 +2,24 @@ export const SITE_CONFIG = {
   name: "DPS Gaming Hub",
   legalName: "DPS Gaming Hub - Digital Product Solutions",
   parentCompany: "Digital Product Solutions",
-  tagline: "Premium Gaming. Premium Experience.",
+  tagline: "Rent. Play. Repeat.",
   domain: "gaming.digitalproductsolutions.in",
   url: "https://gaming.digitalproductsolutions.in",
-  launchStatus: "🚀 OPENING SOON",
-  expectedLaunch: "Coming Soon in Korani",
-  lastUpdated: "2026-08-06",
-  metaTitle: "DPS Gaming Hub | Premium PS5 Gaming Lounge in Attingal, Trivandrum",
+  launchStatus: "🚀 NOW RENTING & OPENING SOON",
+  expectedLaunch: "Doorstep Delivery in Trivandrum & Korani Lounge",
+  lastUpdated: "2026-08-13",
+  googleSiteVerification: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "GSC-DPS-GAMING-HUB-VERIFICATION-TOKEN",
+  metaTitle: "PS5 Console & 43\" QLED TV Rentals in Trivandrum | DPS Gaming Hub",
   metaDescription:
-    "Opening soon in Korani, between Attingal and Kazhakkoottam. 24/7 PS5 gaming (pre-booking only) on high-refresh-rate displays, multiplayer lounge, memberships, birthday packages, and tournaments.",
+    "Rent PS5 Console for ₹949/day and 43\" QLED TV with Tripod Stand for ₹3000/day in Trivandrum, Attingal & Kazhakkoottam. Doorstep delivery, installation & 24/7 gaming lounge at Korani.",
+  rentals: {
+    ps5PerDay: "₹949",
+    ps5PerDayText: "₹949 / Day",
+    tvPerDay: "₹3000",
+    tvPerDayText: "₹3000 / Day",
+    tvSpecs: "43\" QLED TV with Heavy Duty Tripod Stand",
+    deliveryAreas: "Thiruvananthapuram (Attingal, Kazhakkoottam, Technopark, City & Surrounding Areas)",
+  },
   location: {
     streetAddress: "Korani Junction, Main Highway",
     landmark: "Between Attingal and Kazhakkoottam",
@@ -30,13 +39,20 @@ export const SITE_CONFIG = {
     phone: "+91 94003 55185",
     whatsappNumber: "919400355185",
     whatsappMessage:
-      "Hello DPS Gaming Hub, I want to pre-book a 24/7 PS5 station at Korani lounge.",
+      "Hello DPS Gaming Hub, I want to inquire about renting PS5 / QLED TV or booking a lounge session.",
+    whatsappPs5Message:
+      "Hello DPS Gaming Hub! I want to rent a PS5 Console for ₹949/day. Please share availability & delivery details.",
+    whatsappTvMessage:
+      "Hello DPS Gaming Hub! I want to rent a 43\" QLED TV with Stand for ₹3000/day. Please share availability for my event.",
+    whatsappLoungeMessage:
+      "Hello DPS Gaming Hub! I want to pre-book a 24/7 PS5 station at the Korani lounge.",
     email: "gaming@digitalproductsolutions.in",
     instagram: "@dpsgaminghub",
     instagramUrl: "https://instagram.com/dpsgaminghub",
   },
   openingHours: [
-    { days: "Monday - Sunday", hours: "24/7 (Pre-Booking Only)" },
+    { days: "Monday - Sunday", hours: "24/7 (Doorstep Rental Delivery & Lounge Pre-Booking)" },
   ],
-  pricingStart: "₹89/hr",
+  pricingStart: "₹89/hr (Lounge) | ₹949/day (PS5 Rental)",
 };
+

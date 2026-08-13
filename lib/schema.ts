@@ -88,3 +88,66 @@ export function getBreadcrumbSchema(items: { name: string; item: string }[]) {
     })),
   };
 }
+
+export function getRentalServiceSchema() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Electronics & Gaming Equipment Rental Service",
+    provider: {
+      "@type": "LocalBusiness",
+      name: SITE_CONFIG.name,
+      telephone: SITE_CONFIG.contact.phone,
+      url: SITE_CONFIG.url,
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: SITE_CONFIG.location.streetAddress,
+        addressLocality: SITE_CONFIG.location.city,
+        addressRegion: SITE_CONFIG.location.state,
+        postalCode: SITE_CONFIG.location.postalCode,
+        addressCountry: "IN",
+      },
+    },
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: "Thiruvananthapuram District, Kerala, India",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "TV & Console Rentals Trivandrum",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Product",
+            name: "PS5 Console Rental",
+            description: "PlayStation 5 console rental with pre-installed games, DualSense controller, doorstep delivery across Trivandrum.",
+          },
+          price: "949",
+          priceCurrency: "INR",
+          eligibleDuration: {
+            "@type": "QuantitativeValue",
+            value: 1,
+            unitCode: "DAY",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Product",
+            name: "43\" QLED TV Rental with Tripod Stand",
+            description: "43 inch QLED TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, trade shows.",
+          },
+          price: "3000",
+          priceCurrency: "INR",
+          eligibleDuration: {
+            "@type": "QuantitativeValue",
+            value: 1,
+            unitCode: "DAY",
+          },
+        },
+      ],
+    },
+  };
+}
+

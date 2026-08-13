@@ -82,18 +82,20 @@ export function Footer() {
         {/* Bottom Footer Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#64748B]">
           <p>© {new Date().getFullYear()} DPS Gaming Hub. All rights reserved.</p>
-          <div className="flex items-center gap-2">
-            <span>Powered by</span>
+          <div className="flex flex-wrap items-center justify-center gap-2">
+            <span>Engineered &amp; Powered by</span>
             <a
               href="https://digitalproductsolutions.in"
               target="_blank"
-              rel="noopener noreferrer"
-              className="text-white hover:text-[#38BDF8] font-semibold transition-colors flex items-center gap-1"
+              rel="noopener dofollow"
+              className="text-[#7DD3FC] hover:text-white font-bold transition-colors inline-flex items-center gap-1 underline underline-offset-2"
+              title="Digital Product Solutions - Web Development & Technology Studio"
             >
-              Digital Product Solutions
-              <ArrowUpRight className="w-3 h-3 text-[#38BDF8]" />
+              <span>Digital Product Solutions</span>
+              <ArrowUpRight className="w-3.5 h-3.5 text-[#38BDF8]" />
             </a>
           </div>
+
         </div>
       </div>
     </footer>

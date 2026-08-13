@@ -6,6 +6,7 @@ export interface NavItem {
 
 export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "Overview", href: "/" },
+  { label: "Rentals", href: "/rentals", badge: "Hot" },
   { label: "Gaming Setups", href: "/gaming" },
   { label: "Pricing", href: "/pricing" },
   { label: "Membership", href: "/membership" },
@@ -18,19 +19,19 @@ export const MAIN_NAV_ITEMS: NavItem[] = [
 
 export const FOOTER_SECTIONS = [
   {
-    title: "Experience",
+    title: "TV & Console Rentals",
     links: [
-      { label: "PS5 Lounge Experience", href: "/gaming" },
-      { label: "Ultra High-Definition Displays", href: "/gaming#display" },
-      { label: "DualSense Edge Gear", href: "/gaming#controllers" },
-      { label: "3D Audio Lounge", href: "/gaming#audio" },
-      { label: "VIP Private Rooms", href: "/membership" },
+      { label: "PS5 Console Rental (₹949/day)", href: "/rentals#ps5-rental" },
+      { label: "43\" QLED TV Rental (₹3000/day)", href: "/rentals#tv-rental" },
+      { label: "PS5 + TV Combo Setup", href: "/rentals#combo-rental" },
+      { label: "Wedding & Event Displays", href: "/rentals#events" },
+      { label: "Corporate Expo Rentals", href: "/rentals#events" },
     ],
   },
   {
-    title: "Plans & Pass",
+    title: "Plans & Lounge Pass",
     links: [
-      { label: "Hourly Passes", href: "/pricing" },
+      { label: "Hourly Passes (from ₹89/hr)", href: "/pricing" },
       { label: "Night Gaming Session", href: "/pricing#night-pass" },
       { label: "Membership Clubs", href: "/membership" },
       { label: "Student Discount", href: "/pricing#student" },
@@ -47,13 +48,14 @@ export const FOOTER_SECTIONS = [
     ],
   },
   {
-    title: "Nearby Locations",
+    title: "Trivandrum Locations",
     links: [
-      { label: "Gaming Lounge Attingal", href: "/location/gaming-lounge-attingal" },
-      { label: "Gaming Lounge Kazhakkoottam", href: "/location/gaming-lounge-kazhakkoottam" },
-      { label: "Gaming Lounge Technopark", href: "/location/gaming-lounge-technopark" },
-      { label: "Gaming Lounge Trivandrum", href: "/location/gaming-lounge-trivandrum" },
-      { label: "Gaming Lounge Kerala", href: "/location/gaming-lounge-kerala" },
+      { label: "Gaming & Rentals Attingal", href: "/location/gaming-lounge-attingal" },
+      { label: "Gaming & Rentals Kazhakkoottam", href: "/location/gaming-lounge-kazhakkoottam" },
+      { label: "Gaming & Rentals Technopark", href: "/location/gaming-lounge-technopark" },
+      { label: "Gaming & Rentals Trivandrum", href: "/location/gaming-lounge-trivandrum" },
+      { label: "Gaming & Rentals Kerala", href: "/location/gaming-lounge-kerala" },
     ],
   },
 ];
+
