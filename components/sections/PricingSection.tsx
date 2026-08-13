@@ -75,17 +75,17 @@ export function PricingSection() {
                 tier.popular ? "border-[#38BDF8]/50 ring-1 ring-[#38BDF8]/30 bg-[#0B1220]/90" : ""
               }`}
             >
-              {tier.popular && (
-                <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-[#2563EB] to-[#38BDF8] text-white text-[10px] font-extrabold uppercase tracking-widest shadow-md">
-                  Most Popular
-                </div>
-              )}
-
               <div className="space-y-6">
                 <div>
+                  {tier.popular && (
+                    <div className="mb-3 inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-gradient-to-r from-[#2563EB] to-[#38BDF8] text-white text-[10px] font-extrabold uppercase tracking-widest shadow-md border border-[#38BDF8]/40">
+                      🔥 Most Popular
+                    </div>
+                  )}
                   <h3 className="text-2xl font-bold text-white tracking-tight">{tier.name}</h3>
                   <p className="text-xs text-[#94A3B8] mt-1">{tier.tagline}</p>
                 </div>
+
 
                 <div className="pt-2">
                   <div className="flex items-baseline gap-1">

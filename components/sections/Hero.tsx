@@ -110,18 +110,19 @@ export function Hero() {
           >
             {/* CARD 1: PS5 CONSOLE RENTAL */}
             <div className="relative group rounded-3xl p-6 sm:p-8 bg-gradient-to-b from-[#0B132B]/90 via-[#070D1F]/90 to-[#030712] border border-[#2563EB]/40 hover:border-[#38BDF8] transition-all duration-300 shadow-[0_0_50px_rgba(37,99,235,0.15)] flex flex-col justify-between">
-              <div className="absolute top-4 right-4 bg-[#2563EB]/20 border border-[#38BDF8]/40 px-3 py-1 rounded-full text-xs font-semibold text-[#38BDF8]">
-                🔥 Popular Rental
-              </div>
-
               <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-3 rounded-2xl bg-[#2563EB]/20 text-[#38BDF8] border border-[#2563EB]/30">
-                    <Gamepad2 className="w-7 h-7" />
+                <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="p-3 rounded-2xl bg-[#2563EB]/20 text-[#38BDF8] border border-[#2563EB]/30">
+                      <Gamepad2 className="w-7 h-7" />
+                    </div>
+                    <div>
+                      <h2 className="text-2xl font-bold text-white tracking-wide">PS5 Console Rental</h2>
+                      <p className="text-xs text-[#94A3B8] font-mono uppercase tracking-wider">Play More • Pay Less</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 className="text-2xl font-bold text-white tracking-wide">PS5 Console Rental</h2>
-                    <p className="text-xs text-[#94A3B8] font-mono uppercase tracking-wider">Play More • Pay Less</p>
+                  <div className="bg-[#2563EB]/20 border border-[#38BDF8]/40 px-3 py-1 rounded-full text-xs font-semibold text-[#38BDF8] shrink-0">
+                    🔥 Popular Rental
                   </div>
                 </div>
 
@@ -171,18 +172,19 @@ export function Hero() {
 
             {/* CARD 2: 43" QLED TV RENTAL */}
             <div className="relative group rounded-3xl p-6 sm:p-8 bg-gradient-to-b from-[#0B132B]/90 via-[#070D1F]/90 to-[#030712] border border-[#06B6D4]/40 hover:border-[#22D3EE] transition-all duration-300 shadow-[0_0_50px_rgba(6,182,212,0.15)] flex flex-col justify-between">
-              <div className="absolute top-4 right-4 bg-[#06B6D4]/20 border border-[#22D3EE]/40 px-3 py-1 rounded-full text-xs font-semibold text-[#22D3EE]">
-                📺 Event Display
-              </div>
-
               <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="p-3 rounded-2xl bg-[#06B6D4]/20 text-[#22D3EE] border border-[#06B6D4]/30">
-                    <Tv className="w-7 h-7" />
+                <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className="p-3 rounded-2xl bg-[#06B6D4]/20 text-[#22D3EE] border border-[#06B6D4]/30">
+                      <Tv className="w-7 h-7" />
+                    </div>
+                    <div>
+                      <h2 className="text-2xl font-bold text-white tracking-wide">43&quot; QLED TV Rental</h2>
+                      <p className="text-xs text-[#94A3B8] font-mono uppercase tracking-wider">Rent It • Love It</p>
+                    </div>
                   </div>
-                  <div>
-                    <h2 className="text-2xl font-bold text-white tracking-wide">43&quot; QLED TV Rental</h2>
-                    <p className="text-xs text-[#94A3B8] font-mono uppercase tracking-wider">Rent It • Love It</p>
+                  <div className="bg-[#06B6D4]/20 border border-[#22D3EE]/40 px-3 py-1 rounded-full text-xs font-semibold text-[#22D3EE] shrink-0">
+                    📺 Event Display
                   </div>
                 </div>
 
@@ -229,6 +231,7 @@ export function Hero() {
                 </MagneticButton>
               </a>
             </div>
+
           </motion.div>
 
           {/* Lounge Visit Bar */}
