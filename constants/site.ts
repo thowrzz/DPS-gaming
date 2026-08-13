@@ -49,8 +49,9 @@ export const SITE_CONFIG = {
       "Hello DPS Gaming Hub! I want to pre-book a 24/7 PS5 station at the Korani lounge.",
     email: "gaming@digitalproductsolutions.in",
     instagram: "@dpsgaminghub",
-    instagramUrl: "https://instagram.com/dpsgaminghub",
+    instagramUrl: "https://www.instagram.com/dpsgaminghub/",
   },
+
   openingHours: [
     { days: "Monday - Sunday", hours: "24/7 (Doorstep Rental Delivery & Lounge Pre-Booking)" },
   ],

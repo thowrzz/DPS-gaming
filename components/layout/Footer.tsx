@@ -53,8 +53,34 @@ export function Footer() {
                 <Mail className="w-4 h-4 text-[#38BDF8] shrink-0" />
                 <span>{SITE_CONFIG.contact.email}</span>
               </div>
+              <div className="flex items-center gap-2.5">
+                <svg
+                  className="w-4 h-4 text-[#E1306C] shrink-0"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                  <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
+                </svg>
+                <a
+                  href={SITE_CONFIG.contact.instagramUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[#94A3B8] hover:text-[#E1306C] font-semibold transition-colors flex items-center gap-1"
+                >
+                  <span>{SITE_CONFIG.contact.instagram}</span>
+                  <ArrowUpRight className="w-3 h-3 text-[#E1306C]" />
+                </a>
+              </div>
             </div>
           </div>
+
+
 
           {/* Nav Sections */}
           {FOOTER_SECTIONS.map((section) => (
