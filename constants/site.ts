@@ -9,17 +9,18 @@ export const SITE_CONFIG = {
   expectedLaunch: "Doorstep Delivery in Trivandrum & Korani Lounge",
   lastUpdated: "2026-08-13",
   googleSiteVerification: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "GSC-DPS-GAMING-HUB-VERIFICATION-TOKEN",
-  metaTitle: "PS5 Console & 43\" QLED TV Rentals in Trivandrum | DPS Gaming Hub",
+  metaTitle: "PS5 & 43\" QLED TV Rentals | Attingal, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada | DPS",
   metaDescription:
-    "Rent PS5 Console for ₹949/day and 43\" QLED TV with Tripod Stand for ₹3000/day in Trivandrum, Attingal & Kazhakkoottam. Doorstep delivery, installation & 24/7 gaming lounge at Korani.",
+    "Fast doorstep PS5 Console (₹949/day) & 43\" QLED TV (₹3000/day) rentals in Attingal, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada, Kazhakkoottam & Technopark. Transport, setup & 24/7 Korani Lounge.",
   rentals: {
     ps5PerDay: "₹949",
     ps5PerDayText: "₹949 / Day",
     tvPerDay: "₹3000",
     tvPerDayText: "₹3000 / Day",
     tvSpecs: "43\" QLED TV with Heavy Duty Tripod Stand",
-    deliveryAreas: "Thiruvananthapuram (Attingal, Kazhakkoottam, Technopark, City & Surrounding Areas)",
+    deliveryAreas: "Attingal, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada, Kazhakkoottam & Technopark",
   },
+
   location: {
     streetAddress: "Korani Junction, Main Highway",
     landmark: "Between Attingal and Kazhakkoottam",

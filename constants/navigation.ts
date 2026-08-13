@@ -48,14 +48,16 @@ export const FOOTER_SECTIONS = [
     ],
   },
   {
-    title: "Trivandrum Locations",
+    title: "Fast Delivery Locations",
     links: [
-      { label: "Gaming & Rentals Attingal", href: "/location/gaming-lounge-attingal" },
-      { label: "Gaming & Rentals Kazhakkoottam", href: "/location/gaming-lounge-kazhakkoottam" },
-      { label: "Gaming & Rentals Technopark", href: "/location/gaming-lounge-technopark" },
-      { label: "Gaming & Rentals Trivandrum", href: "/location/gaming-lounge-trivandrum" },
-      { label: "Gaming & Rentals Kerala", href: "/location/gaming-lounge-kerala" },
+      { label: "Rentals Attingal", href: "/location/gaming-lounge-attingal" },
+      { label: "Rentals Varkala & Resorts", href: "/location/gaming-lounge-varkala" },
+      { label: "Rentals Venjaramoodu", href: "/location/gaming-lounge-venjaramoodu" },
+      { label: "Rentals Chirayinkeezhu", href: "/location/gaming-lounge-chirayinkeezhu" },
+      { label: "Rentals Kattakada", href: "/location/gaming-lounge-kattakada" },
+      { label: "Rentals Kazhakkoottam & Technopark", href: "/location/gaming-lounge-kazhakkoottam" },
     ],
   },
 ];
+
 

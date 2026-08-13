@@ -82,25 +82,22 @@ export function RentalSection() {
   ];
 
   const deliveryPlaces = [
-    "Attingal",
-    "Kazhakkoottam",
+    "Attingal (⚡ Express Delivery)",
+    "Venjaramoodu",
+    "Varkala & Varkala Cliff",
+    "Chirayinkeezhu & Kadakkavoor",
+    "Kattakada & Malayinkeezhu",
+    "Kazhakkoottam & Kariavattom",
     "Technopark Phase 1, 2 & 3",
-    "Technocity",
-    "Korani Junction",
-    "Mangalapuram",
-    "Kaniyapuram",
-    "Sreekaryam",
-    "Pattom",
-    "Kowdiar",
-    "Vellayambalam",
-    "Vattiyoorkavu",
-    "Poojappura",
-    "Trivandrum Central",
-    "Neyyattinkara",
-    "Varkala",
-    "Kovalam",
-    "Chirayinkeezhu",
+    "Technocity & Korani Junction",
+    "Kilimanoor & Kallambalam",
+    "Kaniyapuram & Mangalapuram",
+    "Pothencode & Nedumangad",
+    "Kowdiar & Pattom",
+    "Vellayambalam & Poojappura",
+    "Trivandrum Central & Kovalam",
   ];
+
 
   return (
     <section id="rentals-section" className="py-24 bg-[#030712] relative overflow-hidden border-t border-[#1E293B]">

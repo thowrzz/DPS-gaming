@@ -57,9 +57,10 @@ export function Hero() {
             className="mb-4"
           >
             <BadgeTag variant="glow" icon={<Rocket className="w-3.5 h-3.5 text-[#38BDF8]" />}>
-              🚚 DOORSTEP RENTALS TRIVANDRUM • KORANI GAMING LOUNGE
+              ⚡ FAST DELIVERY: ATTINGAL • VENJARAMOODU • VARKALA • CHIRAYINKEEZHU • KATTAKADA • KAZHAKKOOTTAM
             </BadgeTag>
           </motion.div>
+
 
           {/* Main H1 Headline */}
           <motion.h1
