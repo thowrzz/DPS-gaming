@@ -53,6 +53,14 @@ export function getLocalBusinessSchema() {
       { "@type": "LocationFeatureSpecification", name: "Free Vehicle Parking", value: true },
       { "@type": "LocationFeatureSpecification", name: "High Speed Fiber Internet", value: true },
     ],
+    sameAs: [
+      SITE_CONFIG.contact.instagramUrl,
+      SITE_CONFIG.contact.facebookUrl,
+      SITE_CONFIG.contact.twitterUrl,
+      SITE_CONFIG.contact.youtubeUrl,
+      SITE_CONFIG.contact.linkedinUrl,
+      "https://digitalproductsolutions.in",
+    ],
     parentOrganization: {
       "@type": "Organization",
       name: SITE_CONFIG.parentCompany,
@@ -60,6 +68,7 @@ export function getLocalBusinessSchema() {
     },
   };
 }
+
 
 export function getFAQSchema(faqs: { question: string; answer: string }[]) {
   return {

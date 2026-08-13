@@ -51,7 +51,12 @@ export const SITE_CONFIG = {
     email: "gaming@digitalproductsolutions.in",
     instagram: "@dpsgaminghub",
     instagramUrl: "https://www.instagram.com/dpsgaminghub/",
+    facebookUrl: "https://facebook.com/dpsgaminghub",
+    twitterUrl: "https://x.com/dpsgaminghub",
+    youtubeUrl: "https://youtube.com/@dpsgaminghub",
+    linkedinUrl: "https://linkedin.com/company/dpsgaminghub",
   },
+
 
   openingHours: [
     { days: "Monday - Sunday", hours: "24/7 (Doorstep Rental Delivery & Lounge Pre-Booking)" },

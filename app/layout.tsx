@@ -84,6 +84,9 @@ export const metadata: Metadata = {
   },
 };
 
+import { GoogleAnalytics } from "@/components/common/GoogleAnalytics";
+import { FacebookPixel } from "@/components/common/FacebookPixel";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -100,6 +103,8 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/apple-icon.png" />
         <SchemaScript schemaData={localSchema} />
         <SchemaScript schemaData={rentalSchema} />
+        <GoogleAnalytics />
+        <FacebookPixel />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#030712] text-white selection:bg-[#2563EB]/40 selection:text-white min-h-screen flex flex-col`}
@@ -115,5 +120,6 @@ export default function RootLayout({
     </html>
   );
 }
+
 
 
