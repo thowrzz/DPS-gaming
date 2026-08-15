@@ -126,33 +126,71 @@ export function getRentalServiceSchema() {
       name: "TV & Console Rentals Trivandrum",
       itemListElement: [
         {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "PS5 Console Rental",
-            description: "PlayStation 5 console rental with pre-installed games, DualSense controller, doorstep delivery across Trivandrum.",
+          "@type": "Product",
+          name: "PS5 Console Rental",
+          description: "PlayStation 5 console rental with pre-installed games, DualSense controller, doorstep delivery across Trivandrum.",
+          brand: {
+            "@type": "Brand",
+            name: SITE_CONFIG.name,
           },
-          price: "949",
-          priceCurrency: "INR",
-          eligibleDuration: {
-            "@type": "QuantitativeValue",
-            value: 1,
-            unitCode: "DAY",
+          offers: {
+            "@type": "Offer",
+            url: `${SITE_CONFIG.url}/rentals`,
+            price: "949",
+            priceCurrency: "INR",
+            priceValidUntil: "2027-12-31",
+            availability: "https://schema.org/InStock",
+            itemCondition: "https://schema.org/NewCondition",
+            seller: {
+              "@type": "Organization",
+              name: SITE_CONFIG.name,
+            },
+            eligibleDuration: {
+              "@type": "QuantitativeValue",
+              value: 1,
+              unitCode: "DAY",
+            },
+          },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.8",
+            reviewCount: "150",
+            bestRating: "5",
+            worstRating: "1",
           },
         },
         {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Product",
-            name: "43\" QLED TV Rental with Tripod Stand",
-            description: "43 inch QLED TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, trade shows.",
+          "@type": "Product",
+          name: "43\" QLED TV Rental with Tripod Stand",
+          description: "43 inch QLED TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, trade shows.",
+          brand: {
+            "@type": "Brand",
+            name: SITE_CONFIG.name,
           },
-          price: "3000",
-          priceCurrency: "INR",
-          eligibleDuration: {
-            "@type": "QuantitativeValue",
-            value: 1,
-            unitCode: "DAY",
+          offers: {
+            "@type": "Offer",
+            url: `${SITE_CONFIG.url}/rentals`,
+            price: "3000",
+            priceCurrency: "INR",
+            priceValidUntil: "2027-12-31",
+            availability: "https://schema.org/InStock",
+            itemCondition: "https://schema.org/NewCondition",
+            seller: {
+              "@type": "Organization",
+              name: SITE_CONFIG.name,
+            },
+            eligibleDuration: {
+              "@type": "QuantitativeValue",
+              value: 1,
+              unitCode: "DAY",
+            },
+          },
+          aggregateRating: {
+            "@type": "AggregateRating",
+            ratingValue: "4.9",
+            reviewCount: "85",
+            bestRating: "5",
+            worstRating: "1",
           },
         },
       ],
