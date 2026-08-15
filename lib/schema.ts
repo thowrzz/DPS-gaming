@@ -129,6 +129,10 @@ export function getRentalServiceSchema() {
           "@type": "Product",
           name: "PS5 Console Rental",
           description: "PlayStation 5 console rental with pre-installed games, DualSense controller, doorstep delivery across Trivandrum.",
+          image: [
+            `${SITE_CONFIG.url}/ps5-controller.png`,
+            `${SITE_CONFIG.url}/hero-bg.png`,
+          ],
           brand: {
             "@type": "Brand",
             name: SITE_CONFIG.name,
@@ -139,6 +143,7 @@ export function getRentalServiceSchema() {
             price: "949",
             priceCurrency: "INR",
             priceValidUntil: "2027-12-31",
+            validFrom: "2025-01-01",
             availability: "https://schema.org/InStock",
             itemCondition: "https://schema.org/NewCondition",
             seller: {
@@ -149,6 +154,40 @@ export function getRentalServiceSchema() {
               "@type": "QuantitativeValue",
               value: 1,
               unitCode: "DAY",
+            },
+            shippingDetails: {
+              "@type": "OfferShippingDetails",
+              shippingRate: {
+                "@type": "MonetaryAmount",
+                value: "0",
+                currency: "INR",
+              },
+              shippingDestination: {
+                "@type": "DefinedRegion",
+                addressCountry: "IN",
+                addressRegion: "KL",
+              },
+              deliveryTime: {
+                "@type": "ShippingDeliveryTime",
+                handlingTime: {
+                  "@type": "QuantitativeValue",
+                  minValue: 0,
+                  maxValue: 1,
+                  unitCode: "DAY",
+                },
+                transitTime: {
+                  "@type": "QuantitativeValue",
+                  minValue: 0,
+                  maxValue: 1,
+                  unitCode: "DAY",
+                },
+              },
+            },
+            hasMerchantReturnPolicy: {
+              "@type": "MerchantReturnPolicy",
+              applicableCountry: "IN",
+              returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+              merchantReturnDays: 0,
             },
           },
           aggregateRating: {
@@ -163,6 +202,10 @@ export function getRentalServiceSchema() {
           "@type": "Product",
           name: "43\" QLED TV Rental with Tripod Stand",
           description: "43 inch QLED TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, trade shows.",
+          image: [
+            `${SITE_CONFIG.url}/lounge-setup.png`,
+            `${SITE_CONFIG.url}/hero-bg.png`,
+          ],
           brand: {
             "@type": "Brand",
             name: SITE_CONFIG.name,
@@ -173,6 +216,7 @@ export function getRentalServiceSchema() {
             price: "3000",
             priceCurrency: "INR",
             priceValidUntil: "2027-12-31",
+            validFrom: "2025-01-01",
             availability: "https://schema.org/InStock",
             itemCondition: "https://schema.org/NewCondition",
             seller: {
@@ -183,6 +227,40 @@ export function getRentalServiceSchema() {
               "@type": "QuantitativeValue",
               value: 1,
               unitCode: "DAY",
+            },
+            shippingDetails: {
+              "@type": "OfferShippingDetails",
+              shippingRate: {
+                "@type": "MonetaryAmount",
+                value: "0",
+                currency: "INR",
+              },
+              shippingDestination: {
+                "@type": "DefinedRegion",
+                addressCountry: "IN",
+                addressRegion: "KL",
+              },
+              deliveryTime: {
+                "@type": "ShippingDeliveryTime",
+                handlingTime: {
+                  "@type": "QuantitativeValue",
+                  minValue: 0,
+                  maxValue: 1,
+                  unitCode: "DAY",
+                },
+                transitTime: {
+                  "@type": "QuantitativeValue",
+                  minValue: 0,
+                  maxValue: 1,
+                  unitCode: "DAY",
+                },
+              },
+            },
+            hasMerchantReturnPolicy: {
+              "@type": "MerchantReturnPolicy",
+              applicableCountry: "IN",
+              returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+              merchantReturnDays: 0,
             },
           },
           aggregateRating: {
