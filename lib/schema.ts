@@ -13,7 +13,7 @@ export function getLocalBusinessSchema() {
     description: SITE_CONFIG.metaDescription,
     telephone: SITE_CONFIG.contact.phone,
     email: SITE_CONFIG.contact.email,
-    priceRange: "$$",
+    priceRange: "₹89 - ₹3000",
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE_CONFIG.location.streetAddress,
@@ -108,6 +108,8 @@ export function getRentalServiceSchema() {
       name: SITE_CONFIG.name,
       telephone: SITE_CONFIG.contact.phone,
       url: SITE_CONFIG.url,
+      image: `${SITE_CONFIG.url}/hero-bg.png`,
+      priceRange: "₹89 - ₹3000",
       address: {
         "@type": "PostalAddress",
         streetAddress: SITE_CONFIG.location.streetAddress,
