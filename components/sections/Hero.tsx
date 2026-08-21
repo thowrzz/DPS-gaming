@@ -190,10 +190,10 @@ export function Hero() {
 
                 {/* Price Display */}
                 <div className="my-4 p-4 rounded-2xl bg-[#030712]/80 border border-[#1E293B] flex items-baseline justify-between">
-                  <span className="text-xs uppercase tracking-widest text-[#94A3B8] font-semibold">1 DAY PASS</span>
+                  <span className="text-xs uppercase tracking-widest text-[#94A3B8] font-semibold">FROM</span>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl sm:text-4xl font-extrabold text-white">₹3,000</span>
-                    <span className="text-xs text-[#94A3B8]">/ day</span>
+                    <span className="text-3xl sm:text-4xl font-extrabold text-white">₹499</span>
+                    <span className="text-xs text-[#94A3B8]">/day</span>
                   </div>
                 </div>
 

@@ -13,7 +13,7 @@ export function getLocalBusinessSchema() {
     description: SITE_CONFIG.metaDescription,
     telephone: SITE_CONFIG.contact.phone,
     email: SITE_CONFIG.contact.email,
-    priceRange: "₹89 - ₹3000",
+    priceRange: "₹89 - ₹499",
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE_CONFIG.location.streetAddress,
@@ -109,7 +109,7 @@ export function getRentalServiceSchema() {
       telephone: SITE_CONFIG.contact.phone,
       url: SITE_CONFIG.url,
       image: `${SITE_CONFIG.url}/hero-bg.png`,
-      priceRange: "₹89 - ₹3000",
+      priceRange: "₹89 - ₹499",
       address: {
         "@type": "PostalAddress",
         streetAddress: SITE_CONFIG.location.streetAddress,
@@ -202,8 +202,8 @@ export function getRentalServiceSchema() {
         },
         {
           "@type": "Product",
-          name: "43\" QLED TV Rental with Tripod Stand",
-          description: "43 inch QLED TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, trade shows.",
+          name: "43\" Smart TV Rental with Tripod Stand",
+          description: "43 inch Smart TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, and trade shows in Trivandrum. Starting from ₹499/day.",
           image: [
             `${SITE_CONFIG.url}/lounge-setup.png`,
             `${SITE_CONFIG.url}/hero-bg.png`,
@@ -213,12 +213,13 @@ export function getRentalServiceSchema() {
             name: SITE_CONFIG.name,
           },
           offers: {
-            "@type": "Offer",
+            "@type": "AggregateOffer",
             url: `${SITE_CONFIG.url}/rentals`,
-            price: "3000",
+            lowPrice: "299",
+            highPrice: "499",
             priceCurrency: "INR",
+            offerCount: "4",
             priceValidUntil: "2027-12-31",
-            validFrom: "2025-01-01",
             availability: "https://schema.org/InStock",
             itemCondition: "https://schema.org/NewCondition",
             seller: {

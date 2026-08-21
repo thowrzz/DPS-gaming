@@ -32,7 +32,7 @@ export function RentalSection() {
     {
       step: "01",
       title: "Choose Gear & Date",
-      description: "Select PS5 Console (₹949/day) or 43\" QLED TV with Tripod Stand (₹3000/day) or Combo.",
+      description: "Select PS5 Console (₹949/day) or 43\" Smart TV with Tripod Stand (from ₹499/day) or Combo.",
       icon: Gamepad2,
     },
     {
@@ -194,7 +194,7 @@ export function RentalSection() {
               </div>
               <h3 className="text-2xl font-bold text-white">We Deliver &amp; Install Across All Places in Trivandrum</h3>
               <p className="text-sm text-[#94A3B8] mt-1 max-w-2xl">
-                On-time doorstep delivery for PS5 rentals (₹949/day) &amp; QLED TV rentals (₹3000/day with tripod stand).
+                On-time doorstep delivery for PS5 rentals (₹949/day) &amp; Smart TV rentals (from ₹499/day with tripod stand).
               </p>
             </div>
             <a

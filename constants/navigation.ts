@@ -22,7 +22,7 @@ export const FOOTER_SECTIONS = [
     title: "TV & Console Rentals",
     links: [
       { label: "PS5 Console Rental (₹949/day)", href: "/rentals#ps5-rental" },
-      { label: "43\" QLED TV Rental (₹3000/day)", href: "/rentals#tv-rental" },
+      { label: "43\" Smart TV Rental (from ₹499/day)", href: "/rentals#tv-rental" },
       { label: "PS5 + TV Combo Setup", href: "/rentals#combo-rental" },
       { label: "Wedding & Event Displays", href: "/rentals#events" },
       { label: "Corporate Expo Rentals", href: "/rentals#events" },

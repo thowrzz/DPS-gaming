@@ -11,14 +11,14 @@ export const SITE_CONFIG = {
   googleSiteVerification: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "GSC-DPS-GAMING-HUB-VERIFICATION-TOKEN",
   metaTitle: "PS5 & 43\" QLED TV Rentals | Attingal & Trivandrum | DPS",
   metaDescription:
-    "Rent PS5 (₹949/day) & 43\" QLED TV (₹3000/day) with doorstep delivery in Attingal, Kazhakkoottam, Varkala & Trivandrum. Transport & setup included!",
+    "Rent PS5 (₹949/day) & 43\" Smart TV (from ₹499/day) with doorstep delivery in Attingal, Kazhakkoottam, Varkala & Trivandrum. Transport & setup included!",
 
   rentals: {
     ps5PerDay: "₹949",
     ps5PerDayText: "₹949 / Day",
-    tvPerDay: "₹3000",
-    tvPerDayText: "₹3000 / Day",
-    tvSpecs: "43\" QLED TV with Heavy Duty Tripod Stand",
+    tvPerDay: "₹499",
+    tvPerDayText: "₹499 / Day (Starting)",
+    tvSpecs: "43\" Smart TV with Heavy Duty Tripod Stand",
     deliveryAreas: "Attingal, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada, Kazhakkoottam & Technopark",
   },
 
@@ -45,7 +45,7 @@ export const SITE_CONFIG = {
     whatsappPs5Message:
       "Hello DPS Gaming Hub! I want to rent a PS5 Console for ₹949/day. Please share availability & delivery details.",
     whatsappTvMessage:
-      "Hello DPS Gaming Hub! I want to rent a 43\" QLED TV with Stand for ₹3000/day. Please share availability for my event.",
+      "Hello DPS Gaming Hub! I want to rent a 43\" Smart TV. Please share rental pricing and availability.",
     whatsappLoungeMessage:
       "Hello DPS Gaming Hub! I want to pre-book a 24/7 PS5 station at the Korani lounge.",
     email: "gaming@digitalproductsolutions.in",
