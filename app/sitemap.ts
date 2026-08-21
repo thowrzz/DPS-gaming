@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     "",
     "/rentals",
+    "/tv-rental",
     "/about",
     "/gaming",
     "/pricing",
@@ -25,7 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     url: `${baseUrl}${route}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
-    priority: route === "" || route === "/rentals" ? 1.0 : 0.8,
+    priority: route === "" || route === "/rentals" || route === "/tv-rental" ? 1.0 : 0.8,
   }));
 
 

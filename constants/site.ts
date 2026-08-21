@@ -9,9 +9,9 @@ export const SITE_CONFIG = {
   expectedLaunch: "Doorstep Delivery in Trivandrum & Korani Lounge",
   lastUpdated: "2026-08-13",
   googleSiteVerification: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "GSC-DPS-GAMING-HUB-VERIFICATION-TOKEN",
-  metaTitle: "PS5 & 43\" QLED TV Rentals | Attingal & Trivandrum | DPS",
+  metaTitle: "TV Rental Trivandrum | PS5 & 43\" Smart TV for Rent | DPS Gaming Hub",
   metaDescription:
-    "Rent PS5 (₹949/day) & 43\" Smart TV (from ₹499/day) with doorstep delivery in Attingal, Kazhakkoottam, Varkala & Trivandrum. Transport & setup included!",
+    "#1 TV Rental in Trivandrum. Rent 43\" Smart TV from ₹499/day with doorstep delivery to Attingal, Varkala, Kazhakkoottam, Chirayinkeezhu & all Thiruvananthapuram areas. Setup included!",
 
   rentals: {
     ps5PerDay: "₹949",

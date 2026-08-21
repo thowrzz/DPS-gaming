@@ -2,7 +2,7 @@ export interface FAQItem {
   id: string;
   question: string;
   answer: string;
-  category: "Location & Access" | "Hardware & Displays" | "Bookings & Rates" | "Tournaments & Events";
+  category: "Location & Access" | "Hardware & Displays" | "Bookings & Rates" | "Tournaments & Events" | "TV Rental";
 }
 
 export const FAQS_LIST: FAQItem[] = [
@@ -75,5 +75,40 @@ export const FAQS_LIST: FAQItem[] = [
     answer:
       "Yes! We offer Squad Lounge Reservations for birthday parties, college group hangouts, and corporate team events with exclusive room access and refreshments.",
     category: "Bookings & Rates",
+  },
+  {
+    id: "faq-tv-rental-trivandrum",
+    question: "Do you offer TV rental service in Trivandrum?",
+    answer:
+      "Yes! DPS Gaming Hub provides 43-inch Smart TV rental across Trivandrum (Thiruvananthapuram) starting from ₹499/day. We deliver to Attingal, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, and surrounding areas with full setup included.",
+    category: "TV Rental",
+  },
+  {
+    id: "faq-tv-rental-price",
+    question: "What is the cost of TV rental in Trivandrum?",
+    answer:
+      "TV rental in Trivandrum starts at ₹499/day (1 day). Multi-day plans: ₹399/day (2–3 days), ₹349/day (4–7 days), ₹299/day (7–18 days). Delivery, setup, and pickup are included.",
+    category: "TV Rental",
+  },
+  {
+    id: "faq-tv-rental-attingal",
+    question: "Is TV rental available in Attingal?",
+    answer:
+      "Yes! We provide fast TV rental delivery to Attingal from our Korani Junction hub, just 5 minutes away. We deliver 43-inch Smart TVs for birthday parties, wedding functions, and events in Attingal.",
+    category: "TV Rental",
+  },
+  {
+    id: "faq-tv-rental-events",
+    question: "Can I rent a TV for a wedding or function in Trivandrum?",
+    answer:
+      "Absolutely. Our 43-inch Smart TV with heavy-duty adjustable tripod stand is ideal for wedding halls, community halls, and event venues in Trivandrum. We handle delivery, setup, and pickup.",
+    category: "TV Rental",
+  },
+  {
+    id: "faq-ps5-tv-combo",
+    question: "Can I rent both a PS5 and a TV together?",
+    answer:
+      "Yes! We offer a PS5 + 43\" Smart TV combo rental package perfect for gaming events and birthday parties. WhatsApp us for combo pricing and availability in your Trivandrum area.",
+    category: "TV Rental",
   },
 ];

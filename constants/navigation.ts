@@ -6,6 +6,7 @@ export interface NavItem {
 
 export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "Overview", href: "/" },
+  { label: "TV Rental", href: "/tv-rental", badge: "New" },
   { label: "Rentals", href: "/rentals", badge: "Hot" },
   { label: "Gaming Setups", href: "/gaming" },
   { label: "Pricing", href: "/pricing" },
@@ -48,14 +49,14 @@ export const FOOTER_SECTIONS = [
     ],
   },
   {
-    title: "Fast Delivery Locations",
+    title: "TV Rental Locations",
     links: [
-      { label: "Rentals Attingal", href: "/location/gaming-lounge-attingal" },
-      { label: "Rentals Varkala & Resorts", href: "/location/gaming-lounge-varkala" },
-      { label: "Rentals Venjaramoodu", href: "/location/gaming-lounge-venjaramoodu" },
-      { label: "Rentals Chirayinkeezhu", href: "/location/gaming-lounge-chirayinkeezhu" },
-      { label: "Rentals Kattakada", href: "/location/gaming-lounge-kattakada" },
-      { label: "Rentals Kazhakkoottam & Technopark", href: "/location/gaming-lounge-kazhakkoottam" },
+      { label: "TV Rental Attingal", href: "/tv-rental/attingal" },
+      { label: "TV Rental Chirayinkeezhu", href: "/tv-rental/chirayinkeezhu" },
+      { label: "TV Rental Kazhakkoottam", href: "/tv-rental/kazhakkoottam" },
+      { label: "TV Rental Varkala", href: "/tv-rental/varkala" },
+      { label: "TV Rental Vamanapuram", href: "/tv-rental/vamanapuram" },
+      { label: "TV Rental Kilimanoor", href: "/tv-rental/kilimanoor" },
     ],
   },
 ];
