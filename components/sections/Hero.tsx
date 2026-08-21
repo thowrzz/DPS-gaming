@@ -250,7 +250,7 @@ export function Hero() {
             </div>
             <div className="flex items-center gap-2 shrink-0">
               <Link href="/book">
-                <MagneticButton variant="ghost" size="sm">
+                <MagneticButton variant="outline" size="sm">
                   Book Lounge Station →
                 </MagneticButton>
               </Link>

@@ -8,8 +8,63 @@ export interface PricingTier {
   features: string[];
   ctaText: string;
   whatsappMessage?: string;
-  category?: "rental" | "lounge";
+  category?: "rental" | "lounge" | "tv";
 }
+
+export interface TvRentalTier {
+  duration: string;
+  price: string;
+  perDay?: string;
+  highlight?: boolean;
+  badge?: string;
+}
+
+export const TV_RENTAL_TIERS: TvRentalTier[] = [
+  {
+    duration: "1 Day",
+    price: "₹499",
+    perDay: "+ delivery charges",
+    badge: "Quick Rental",
+  },
+  {
+    duration: "2–3 Days",
+    price: "₹399",
+    perDay: "/day",
+    highlight: true,
+    badge: "Popular",
+  },
+  {
+    duration: "4–7 Days",
+    price: "₹349",
+    perDay: "/day",
+    badge: "Best Value",
+  },
+  {
+    duration: "7–18 Days",
+    price: "₹299",
+    perDay: "/day",
+    badge: "Long Term",
+  },
+];
+
+export const TV_RENTAL_NOTES = [
+  {
+    label: "Delivery",
+    value: "Free delivery within the selected service area. Delivery charges may apply for locations outside the free delivery range, depending on the location.",
+  },
+  {
+    label: "Additional Days",
+    value: "Charged according to the applicable rental plan/rate.",
+  },
+  {
+    label: "Payment",
+    value: "35% advance at booking and 65% at the time of delivery/hand-over.",
+  },
+  {
+    label: "Security Deposit",
+    value: "As applicable.",
+  },
+];
 
 export const RENTAL_TIERS: PricingTier[] = [
   {

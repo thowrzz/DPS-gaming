@@ -1,6 +1,7 @@
 import { MetadataRoute } from "next";
 import { SITE_CONFIG } from "@/constants/site";
 import { LOCAL_PAGES } from "@/constants/locations";
+import { TV_LOCATION_PAGES } from "@/constants/tv-locations";
 import { BLOG_POSTS } from "@/constants/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -42,5 +43,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticRoutes, ...localRoutes, ...blogRoutes];
+  const tvRentalRoutes = Object.values(TV_LOCATION_PAGES).map((page) => ({
+    url: `${baseUrl}/tv-rental/${page.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.9,
+  }));
+
+  return [...staticRoutes, ...localRoutes, ...blogRoutes, ...tvRentalRoutes];
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import {
   Truck,
@@ -81,21 +82,23 @@ export function RentalSection() {
     },
   ];
 
-  const deliveryPlaces = [
-    "Attingal (⚡ Express Delivery)",
-    "Venjaramoodu",
-    "Varkala & Varkala Cliff",
-    "Chirayinkeezhu & Kadakkavoor",
-    "Kattakada & Malayinkeezhu",
-    "Kazhakkoottam & Kariavattom",
-    "Technopark Phase 1, 2 & 3",
-    "Technocity & Korani Junction",
-    "Kilimanoor & Kallambalam",
-    "Kaniyapuram & Mangalapuram",
-    "Pothencode & Nedumangad",
-    "Kowdiar & Pattom",
-    "Vellayambalam & Poojappura",
-    "Trivandrum Central & Kovalam",
+  const deliveryPlaces: { label: string; href?: string }[] = [
+    { label: "Attingal (⚡ Express Delivery)", href: "/tv-rental/attingal" },
+    { label: "Chirayinkeezhu & Kadakkavoor", href: "/tv-rental/chirayinkeezhu" },
+    { label: "Kazhakkoottam & Kariavattom", href: "/tv-rental/kazhakkoottam" },
+    { label: "Varkala & Varkala Cliff", href: "/tv-rental/varkala" },
+    { label: "Vamanapuram", href: "/tv-rental/vamanapuram" },
+    { label: "Kallambalam", href: "/tv-rental/kallambalam" },
+    { label: "Kilimanoor", href: "/tv-rental/kilimanoor" },
+    { label: "Venjaramoodu" },
+    { label: "Kattakada & Malayinkeezhu" },
+    { label: "Technopark Phase 1, 2 & 3" },
+    { label: "Technocity & Korani Junction" },
+    { label: "Kaniyapuram & Mangalapuram" },
+    { label: "Pothencode & Nedumangad" },
+    { label: "Kowdiar & Pattom" },
+    { label: "Vellayambalam & Poojappura" },
+    { label: "Trivandrum Central & Kovalam" },
   ];
 
 
@@ -108,14 +111,16 @@ export function RentalSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto">
-          <BadgeTag variant="secondary" icon={<Truck className="w-3.5 h-3.5 text-[#38BDF8]" />}>
+          <BadgeTag variant="blue" icon={<Truck className="w-3.5 h-3.5 text-[#38BDF8]" />}>
             DOORSTEP RENTAL SERVICE
           </BadgeTag>
           <h2 className="mt-4 text-3xl sm:text-5xl font-black text-white tracking-tight">
-            How Renting Works <span className="text-gradient-blue">in Trivandrum</span>
+            TV Rental &amp; PS5 Rental{" "}
+            <span className="text-gradient-blue">in Trivandrum</span>
           </h2>
           <p className="mt-4 text-[#94A3B8] text-base sm:text-lg">
-            Hassle-free TV &amp; PS5 rentals for home gaming, birthday parties, corporate expos, and wedding events. We transport, install, and pick up!
+            Hassle-free Smart TV &amp; PS5 rentals for home gaming, birthday parties, corporate expos,
+            and wedding events across Thiruvananthapuram. We transport, install, and pick up!
           </p>
         </div>
 
@@ -207,12 +212,22 @@ export function RentalSection() {
 
           <div className="mt-6 flex flex-wrap gap-2">
             {deliveryPlaces.map((place, idx) => (
-              <span
-                key={idx}
-                className="px-3 py-1.5 rounded-lg bg-[#030712]/80 border border-[#1E293B] text-xs text-[#CBD5E1] font-medium"
-              >
-                📍 {place}
-              </span>
+              place.href ? (
+                <Link
+                  key={idx}
+                  href={place.href}
+                  className="px-3 py-1.5 rounded-lg bg-[#030712]/80 border border-[#1E293B] hover:border-[#38BDF8]/50 text-xs text-[#CBD5E1] font-medium transition-colors hover:text-[#38BDF8]"
+                >
+                  📍 {place.label}
+                </Link>
+              ) : (
+                <span
+                  key={idx}
+                  className="px-3 py-1.5 rounded-lg bg-[#030712]/80 border border-[#1E293B] text-xs text-[#CBD5E1] font-medium"
+                >
+                  📍 {place.label}
+                </span>
+              )
             ))}
           </div>
         </div>
