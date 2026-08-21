@@ -10,6 +10,7 @@ import { BookingCTA } from "@/components/sections/BookingCTA";
 import { SchemaScript } from "@/components/common/SchemaScript";
 import { getLocalBusinessSchema, getBreadcrumbSchema } from "@/lib/schema";
 import { SITE_CONFIG } from "@/constants/site";
+
 import {
   MapPin,
   CheckCircle2,
@@ -75,7 +76,7 @@ export default async function TvRentalLocationPage({
   const localSchema = getLocalBusinessSchema();
   const breadcrumbSchema = getBreadcrumbSchema([
     { name: "Home", item: "/" },
-    { name: "TV Rental", item: "/rentals" },
+    { name: "TV Rental", item: "/tv-rental" },
     { name: `TV Rental ${pageData.cityName}`, item: `/tv-rental/${pageData.slug}` },
   ]);
 

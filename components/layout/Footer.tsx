@@ -58,7 +58,7 @@ export function Footer() {
                 <a
                   href={SITE_CONFIG.contact.instagramUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   aria-label="DPS Gaming Hub Instagram"
                   className="p-2 rounded-xl bg-white/5 border border-white/10 text-[#E1306C] hover:bg-[#E1306C]/20 hover:border-[#E1306C]/40 transition-all"
                   title="Instagram"
@@ -68,7 +68,7 @@ export function Footer() {
                 <a
                   href={SITE_CONFIG.contact.facebookUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   aria-label="DPS Gaming Hub Facebook"
                   className="p-2 rounded-xl bg-white/5 border border-white/10 text-[#1877F2] hover:bg-[#1877F2]/20 hover:border-[#1877F2]/40 transition-all"
                   title="Facebook"
@@ -78,7 +78,7 @@ export function Footer() {
                 <a
                   href={SITE_CONFIG.contact.twitterUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   aria-label="DPS Gaming Hub X (Twitter)"
                   className="p-2 rounded-xl bg-white/5 border border-white/10 text-[#38BDF8] hover:bg-[#38BDF8]/20 hover:border-[#38BDF8]/40 transition-all"
                   title="X (Twitter)"
@@ -88,7 +88,7 @@ export function Footer() {
                 <a
                   href={SITE_CONFIG.contact.youtubeUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   aria-label="DPS Gaming Hub YouTube"
                   className="p-2 rounded-xl bg-white/5 border border-white/10 text-[#FF0000] hover:bg-[#FF0000]/20 hover:border-[#FF0000]/40 transition-all"
                   title="YouTube"
@@ -98,7 +98,7 @@ export function Footer() {
                 <a
                   href={SITE_CONFIG.contact.linkedinUrl}
                   target="_blank"
-                  rel="noopener noreferrer"
+                  rel="noopener noreferrer nofollow"
                   aria-label="DPS Gaming Hub LinkedIn"
                   className="p-2 rounded-xl bg-white/5 border border-white/10 text-[#0A66C2] hover:bg-[#0A66C2]/20 hover:border-[#0A66C2]/40 transition-all"
                   title="LinkedIn"
@@ -143,7 +143,7 @@ export function Footer() {
             <a
               href="https://digitalproductsolutions.in"
               target="_blank"
-              rel="noopener dofollow"
+              rel="noopener noreferrer"
               className="text-[#7DD3FC] hover:text-white font-bold transition-colors inline-flex items-center gap-1 underline underline-offset-2"
               title="Digital Product Solutions - Web Development & Technology Studio"
             >
