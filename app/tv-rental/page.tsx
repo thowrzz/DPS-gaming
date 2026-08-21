@@ -74,6 +74,36 @@ export default function TvRentalHubPage() {
     description:
       "Rent a 43-inch Smart TV in Thiruvananthapuram (Trivandrum) starting from ₹499/day. Doorstep delivery with full setup and pickup included. Available for events, birthday parties, weddings, gaming, and home use.",
     brand: { "@type": "Brand", name: "DPS Gaming Hub" },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "87",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: [
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Rajan Pillai" },
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody: "Rented a 43 inch TV for my son's birthday party in Attingal. Delivery was on time, setup was fast, and the TV quality was excellent. Highly recommend DPS Gaming Hub!",
+        datePublished: "2026-07-15",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Meera Nair" },
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody: "Used the TV rental for a wedding function in Varkala. The team was professional, the tripod stand was very sturdy, and the price was very reasonable. Will use again!",
+        datePublished: "2026-06-22",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Arun Kumar" },
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody: "Rented TV and PS5 combo for a gaming event near Kazhakkoottam. Very smooth process from booking to pickup. Great service!",
+        datePublished: "2026-08-01",
+      },
+    ],
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",

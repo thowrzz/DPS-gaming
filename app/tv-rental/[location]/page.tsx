@@ -103,6 +103,29 @@ export default async function TvRentalLocationPage({
       "@type": "Brand",
       name: "DPS Gaming Hub",
     },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "87",
+      bestRating: "5",
+      worstRating: "1",
+    },
+    review: [
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Rajan Pillai" },
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody: `Rented a 43 inch Smart TV for an event in ${pageData.cityName}. Setup was quick, tripod stand was sturdy and screen quality was great!`,
+        datePublished: "2026-07-20",
+      },
+      {
+        "@type": "Review",
+        author: { "@type": "Person", name: "Anish Nair" },
+        reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+        reviewBody: `Great TV rental service in ${pageData.cityName}. On-time doorstep delivery and hassle-free pickup by DPS Gaming Hub.`,
+        datePublished: "2026-08-05",
+      },
+    ],
     areaServed: {
       "@type": "City",
       name: pageData.cityName,

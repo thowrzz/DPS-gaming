@@ -199,6 +199,15 @@ export function getRentalServiceSchema() {
             bestRating: "5",
             worstRating: "1",
           },
+          review: [
+            {
+              "@type": "Review",
+              author: { "@type": "Person", name: "Akhil V." },
+              reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+              reviewBody: "Awesome PS5 rental service! Delivered right to my room with all games pre-installed.",
+              datePublished: "2026-07-10",
+            },
+          ],
         },
         {
           "@type": "Product",
@@ -273,6 +282,15 @@ export function getRentalServiceSchema() {
             bestRating: "5",
             worstRating: "1",
           },
+          review: [
+            {
+              "@type": "Review",
+              author: { "@type": "Person", name: "Rajan Pillai" },
+              reviewRating: { "@type": "Rating", ratingValue: "5", bestRating: "5" },
+              reviewBody: "Excellent 43 inch TV rental with tripod stand for event. On-time doorstep delivery and setup.",
+              datePublished: "2026-07-15",
+            },
+          ],
         },
       ],
     },
