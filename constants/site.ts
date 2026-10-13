@@ -11,15 +11,15 @@ export const SITE_CONFIG = {
   googleSiteVerification: process.env.NEXT_PUBLIC_GSC_VERIFICATION || "GSC-DPS-GAMING-HUB-VERIFICATION-TOKEN",
   metaTitle: "TV Rental Trivandrum | PS5 & 43\" Smart TV for Rent | DPS Gaming Hub",
   metaDescription:
-    "#1 TV Rental in Trivandrum. Rent 43\" Smart TV from ₹1,499/day (multi-day from ₹799/day) with doorstep delivery to Attingal, Varkala, Kazhakkoottam, Chirayinkeezhu & all Thiruvananthapuram areas. Setup included!",
+    "#1 TV Rental in Trivandrum. Rent 43\" Smart TV for ₹1,499/day (longer rentals from ₹499/day) with doorstep delivery to Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Kilimanoor, Varkala & Kazhakkoottam. Setup included!",
 
   rentals: {
     ps5PerDay: "₹949",
     ps5PerDayText: "₹949 / Day",
     tvPerDay: "₹1,499",
-    tvPerDayText: "₹1,499 / Day (Multi-Day from ₹799/Day)",
+    tvPerDayText: "₹1,499 / Day (1-Day) | from ₹499/Day (>7 Days)",
     tvSpecs: "43\" Smart TV with Heavy Duty Tripod Stand",
-    deliveryAreas: "Attingal, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada, Kazhakkoottam & Technopark",
+    deliveryAreas: "Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Kilimanoor, Venjaramoodu, Varkala, Chirayinkeezhu, Kattakada, Kazhakkoottam & Technopark",
   },
 
   location: {

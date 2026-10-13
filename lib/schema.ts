@@ -224,7 +224,7 @@ export function getRentalServiceSchema() {
           offers: {
             "@type": "AggregateOffer",
             url: `${SITE_CONFIG.url}/rentals`,
-            lowPrice: "799",
+            lowPrice: "499",
             highPrice: "1499",
             priceCurrency: "INR",
             offerCount: "4",

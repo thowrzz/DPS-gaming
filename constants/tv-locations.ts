@@ -545,10 +545,301 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       },
     ],
   },
+
+  pothencode: {
+    slug: "pothencode",
+    cityName: "Pothencode",
+    district: "Thiruvananthapuram",
+    heroHeading: "43 Inch TV Rental in Pothencode | Smart TV for Events & Parties",
+    subheading:
+      "Rent a 43-inch Smart TV in Pothencode for birthday parties, family functions, wedding receptions, and gaming sessions. Doorstep delivery with full tripod stand setup included.",
+    metaTitle: "43 Inch TV Rental in Pothencode | Smart TV for Rent | DPS Gaming Hub",
+    metaDescription:
+      "Rent 43-inch Smart TV in Pothencode starting ₹1,499/day (longer rentals from ₹499/day). Doorstep delivery with tripod stand setup for parties, weddings & gaming across Pothencode.",
+    keywords: [
+      "TV rental Pothencode",
+      "43 inch TV rental Pothencode",
+      "Smart TV rent Pothencode",
+      "television rental Pothencode",
+      "TV for party Pothencode",
+      "TV rental near Pothencode",
+      "Smart TV hire Pothencode Kerala",
+    ],
+    useCases: [
+      {
+        title: "Family Celebrations",
+        desc: "Display photo slideshows and video greetings at family events, anniversaries, and functions in Pothencode.",
+      },
+      {
+        title: "Birthday Parties",
+        desc: "Create an entertainment and gaming corner for birthday parties in Pothencode homes and party halls.",
+      },
+      {
+        title: "Community & Cultural Events",
+        desc: "Set up a high-definition 43\" Smart TV for local community gatherings and celebrations around Santhigiri and Pothencode.",
+      },
+      {
+        title: "Gaming Setups",
+        desc: "Pair with a PS5 for weekend gaming tournaments with friends and family in Pothencode.",
+      },
+    ],
+    landmarks: [
+      "Pothencode Junction",
+      "Santhigiri Ashram",
+      "Kattayikonam",
+      "Vembayam Road",
+      "Korani Hub (10 mins)",
+    ],
+    nearbyAreas: [
+      "Pothencode Town",
+      "Santhigiri",
+      "Kattayikonam",
+      "Mangalapuram",
+      "Korani",
+      "Kazhakkoottam",
+    ],
+    contentStory:
+      "DPS Gaming Hub provides fast doorstep delivery of 43-inch Smart TVs to Pothencode and Santhigiri. We handle complete equipment transportation, adjustable tripod stand setup, and testing before handing over. Whether you need a display for a one-day function or a multi-week rental, we offer flexible rates starting at ₹1,499/day and down to ₹499/day for longer periods.",
+    deliveryNote:
+      "Express delivery covers Pothencode town, Santhigiri, Kattayikonam, and Vembayam Road within 30–45 minutes of booking confirmation.",
+    faqs: [
+      {
+        q: "Can I rent a TV for 1 day in Pothencode?",
+        a: "Yes! 1-day TV rental in Pothencode is ₹1,499 with complete setup and delivery included. Long-term rentals (>7 days) reduce down to ₹499/day.",
+      },
+      {
+        q: "Do you provide stand and cables with the TV in Pothencode?",
+        a: "Yes! Every rental includes a heavy-duty adjustable tripod stand, HDMI cables, power extensions, and on-site setup.",
+      },
+      {
+        q: "Can I get a PS5 along with the TV rental in Pothencode?",
+        a: "Yes! We offer a popular PS5 + 43\" Smart TV combo package ideal for birthday parties and gaming tournaments in Pothencode.",
+      },
+    ],
+  },
+
+  mangalapuram: {
+    slug: "mangalapuram",
+    cityName: "Mangalapuram",
+    district: "Thiruvananthapuram",
+    heroHeading: "Smart TV Rental in Mangalapuram | 43 Inch TV for Rent",
+    subheading:
+      "Ultra-fast 5-minute TV rental delivery to Mangalapuram, Technocity, Life Science Park & Thonnakkal. High-definition 43-inch Smart TV with heavy-duty stand for corporate & private events.",
+    metaTitle: "Smart TV Rental in Mangalapuram | 5-Min Delivery | DPS Gaming Hub",
+    metaDescription:
+      "Rent 43-inch Smart TV in Mangalapuram from ₹1,499/day (longer rentals from ₹499/day). 5-min doorstep delivery to Technocity & Life Science Park with stand and setup.",
+    keywords: [
+      "TV rental Mangalapuram",
+      "43 inch TV rental Mangalapuram",
+      "Smart TV rent Mangalapuram",
+      "Technocity TV rental",
+      "TV for corporate event Mangalapuram",
+      "television rental Mangalapuram",
+      "TV hire Mangalapuram Kerala",
+    ],
+    useCases: [
+      {
+        title: "Technocity & IT Expos",
+        desc: "Professional display setup for tech demos, client meetings, and workshops across Technocity and Mangalapuram offices.",
+      },
+      {
+        title: "Corporate Presentations",
+        desc: "Sleek 43\" Smart TV with tripod stand for product launches, business pitches, and team events at Bio 360 Park.",
+      },
+      {
+        title: "Home & Apartment Parties",
+        desc: "Movie screenings and cricket watch-parties in Mangalapuram residential communities and apartments.",
+      },
+      {
+        title: "Gaming Tournaments",
+        desc: "Connect our TV rental with a PS5 for FIFA / EA Sports tournaments with squad mates.",
+      },
+    ],
+    landmarks: [
+      "Mangalapuram Junction",
+      "Bio 360 Life Sciences Park",
+      "Technocity Campus",
+      "Thonnakkal",
+      "Korani Junction (Hub)",
+    ],
+    nearbyAreas: [
+      "Mangalapuram Town",
+      "Korani",
+      "Pallippuram",
+      "Technocity",
+      "Thonnakkal",
+      "Pothencode",
+    ],
+    contentStory:
+      "Mangalapuram is located just 5 minutes from our Korani Junction hub on NH66, making it our fastest delivery zone! We deliver 43-inch Smart TVs to Technocity campus offices, Life Sciences Park venues, and local homes. Our team handles complete transport, stand assembly, wiring, and pickup.",
+    deliveryNote:
+      "Standard delivery takes under 20 minutes across Mangalapuram, Thonnakkal, and Technocity. Contact us on WhatsApp for rapid booking.",
+    faqs: [
+      {
+        q: "How fast can you deliver a TV in Mangalapuram?",
+        a: "Since our hub is at Korani Junction (5 minutes away), we can deliver to Mangalapuram in as fast as 15–20 minutes!",
+      },
+      {
+        q: "What is the TV rental rate in Mangalapuram?",
+        a: "1-day TV rental is ₹1,499. For multi-day and long-term bookings (>7 days), the price drops down to ₹499/day.",
+      },
+      {
+        q: "Do you deliver to Technocity office spaces in Mangalapuram?",
+        a: "Yes! We regularly deliver 43-inch Smart TVs with tripod stands for office presentations, expos, and client demos at Technocity.",
+      },
+    ],
+  },
+
+  alamcode: {
+    slug: "alamcode",
+    cityName: "Alamcode",
+    district: "Thiruvananthapuram",
+    heroHeading: "43 Inch TV Rental in Alamcode Attingal | Smart TV for Rent",
+    subheading:
+      "Rent a 43-inch Smart TV in Alamcode for weddings, birthday parties, reception halls, and home use. Doorstep delivery with full tripod setup from our nearby Korani hub.",
+    metaTitle: "43 Inch TV Rental in Alamcode | Smart TV for Rent | DPS Gaming Hub",
+    metaDescription:
+      "Rent 43-inch Smart TV in Alamcode Attingal starting ₹1,499/day (longer rentals from ₹499/day). Fast doorstep delivery with stand & setup for wedding halls & events.",
+    keywords: [
+      "TV rental Alamcode",
+      "Smart TV rent Alamcode",
+      "43 inch TV rental Alamcode",
+      "TV for wedding Alamcode",
+      "television rental Alamcode Attingal",
+      "TV for party Alamcode",
+      "TV hire Alamcode Kerala",
+    ],
+    useCases: [
+      {
+        title: "Wedding Receptions",
+        desc: "Display live wedding feeds, slideshows, and video greetings at Alamcode auditoriums and banquet halls.",
+      },
+      {
+        title: "Birthday & Milestone Parties",
+        desc: "Set up movie screening or gaming zones for birthday parties at Alamcode homes and community centers.",
+      },
+      {
+        title: "Auditorium & Stage Displays",
+        desc: "Heavy-duty tripod stand provides optimal viewing angle for conferences and gatherings.",
+      },
+      {
+        title: "Temporary Home Entertainment",
+        desc: "Need a TV for visiting guests or a sports tournament? Flexible daily and weekly rental without long commitments.",
+      },
+    ],
+    landmarks: [
+      "Alamcode Junction",
+      "Attingal Bypass",
+      "Mamom Bridge",
+      "Moonnumukku",
+      "Korani Hub (5 mins)",
+    ],
+    nearbyAreas: [
+      "Alamcode Town",
+      "Attingal",
+      "Mamom",
+      "Korani",
+      "Kadakkavoor",
+      "Chirayinkeezhu",
+    ],
+    contentStory:
+      "Alamcode is located along the Attingal Bypass and NH66 corridor, just 5 minutes from DPS Gaming Hub at Korani. We provide quick doorstep delivery of 43-inch Smart TVs complete with adjustable tripod stands to auditoriums, event spaces, and residences throughout Alamcode.",
+    deliveryNote:
+      "Free doorstep delivery within Alamcode and Attingal town limits. Same-day setup available on short notice.",
+    faqs: [
+      {
+        q: "Do you deliver TV rentals to wedding halls in Alamcode?",
+        a: "Yes! We deliver to all convention centers and wedding halls in Alamcode and Attingal. We handle transport, stand setup, and collection.",
+      },
+      {
+        q: "What is the cost of renting a TV in Alamcode?",
+        a: "1-day TV rental is ₹1,499 with stand and delivery included. Long-term rentals (>7 days) reduce down to ₹499/day.",
+      },
+      {
+        q: "Can I combine a PS5 with the TV in Alamcode?",
+        a: "Yes! We have an all-in-one PS5 + TV combo package that is very popular for parties and gaming tournaments.",
+      },
+    ],
+  },
+
+  pallippuram: {
+    slug: "pallippuram",
+    cityName: "Pallippuram",
+    district: "Thiruvananthapuram",
+    heroHeading: "43 Inch Smart TV Rental in Pallippuram | TV for Events & Home",
+    subheading:
+      "Rent a 43-inch Smart TV in Pallippuram, CRPF Camp, Technocity & Kaniyapuram. Fast doorstep delivery with heavy-duty stand, cables & full installation included.",
+    metaTitle: "43 Inch Smart TV Rental in Pallippuram | Doorstep Delivery | DPS",
+    metaDescription:
+      "Rent 43-inch Smart TV in Pallippuram from ₹1,499/day (longer rentals from ₹499/day). Express delivery to CRPF Camp, Technocity & Kaniyapuram with stand & setup.",
+    keywords: [
+      "TV rental Pallippuram",
+      "43 inch TV rental Pallippuram",
+      "Smart TV rent Pallippuram",
+      "TV rental CRPF camp Pallippuram",
+      "television rental Pallippuram",
+      "TV for party Pallippuram",
+      "TV hire Pallippuram Trivandrum",
+    ],
+    useCases: [
+      {
+        title: "CRPF Camp & Quarters Events",
+        desc: "Display entertainment, sporting events, and movies at CRPF residential quarters and community halls in Pallippuram.",
+      },
+      {
+        title: "Family Celebrations & Functions",
+        desc: "High-definition 4K display with tripod stand for family functions, housewarmings, and gatherings.",
+      },
+      {
+        title: "Cricket & Sports Match Screenings",
+        desc: "Host thrilling IPL and World Cup match screenings with friends in Pallippuram.",
+      },
+      {
+        title: "Gaming Nights",
+        desc: "Pair with a PS5 console for multiplayer action and tournaments right at home.",
+      },
+    ],
+    landmarks: [
+      "Pallippuram CRPF Camp",
+      "Technocity Entrance",
+      "Kaniyapuram Junction",
+      "Pallippuram High School",
+      "Korani Hub (8 mins)",
+    ],
+    nearbyAreas: [
+      "Pallippuram Town",
+      "Mangalapuram",
+      "Kaniyapuram",
+      "Kazhakkoottam",
+      "Korani",
+    ],
+    contentStory:
+      "DPS Gaming Hub delivers 43-inch Smart TVs directly to Pallippuram, the CRPF Camp residential area, and Kaniyapuram. Situated along NH66 just 8 minutes from our Korani hub, our team handles delivery, stand installation, cable wiring, and prompt pickup after your event.",
+    deliveryNote:
+      "Express delivery covers Pallippuram town, CRPF Camp, and Kaniyapuram within 30 minutes of booking confirmation.",
+    faqs: [
+      {
+        q: "Do you deliver TV rentals to the CRPF Camp area in Pallippuram?",
+        a: "Yes! We deliver to Pallippuram CRPF Camp residential quarters, community spaces, and homes with full setup included.",
+      },
+      {
+        q: "What is the TV rental rate in Pallippuram?",
+        a: "1-day rental is ₹1,499. For rentals longer than 7 days, the price drops to ₹499/day.",
+      },
+      {
+        q: "Is a tripod stand included with the TV in Pallippuram?",
+        a: "Yes, every TV rental includes a heavy-duty adjustable tripod stand, HDMI cables, and on-site setup.",
+      },
+    ],
+  },
 };
 
 export const TV_RENTAL_LOCATIONS = [
   "Attingal",
+  "Alamcode",
+  "Mangalapuram",
+  "Pothencode",
+  "Pallippuram",
   "Chirayinkeezhu",
   "Kazhakkoottam",
   "Vamanapuram",

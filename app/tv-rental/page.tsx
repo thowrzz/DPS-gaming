@@ -25,7 +25,7 @@ import {
 export const metadata: Metadata = {
   title: "TV Rental Trivandrum | 43 Inch Smart TV for Rent | from ₹1,499/day",
   description:
-    "Rent 43-inch Smart TV in Trivandrum (Thiruvananthapuram) from ₹1,499/day (multi-day down to ₹799/day). Doorstep delivery with setup to Attingal, Varkala, Chirayinkeezhu, Kazhakkoottam, Vamanapuram, Kallambalam & Kilimanoor. Free installation for events, parties & home use.",
+    "Rent 43-inch Smart TV in Trivandrum from ₹1,499/day (longer rentals from ₹499/day). Doorstep delivery with setup to Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Kazhakkoottam, Varkala & Kilimanoor. Free installation for events, parties & home use.",
   keywords: [
     "TV rental Trivandrum",
     "TV rental Thiruvananthapuram",
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "TV Rental Trivandrum | 43 Inch Smart TV for Rent | from ₹1,499/day",
     description:
-      "Rent 43-inch Smart TV in Trivandrum from ₹1,499/day (multi-day from ₹799/day). Doorstep delivery, full setup, and pickup across Attingal, Varkala, Kazhakkoottam & all Trivandrum areas.",
+      "Rent 43-inch Smart TV in Trivandrum from ₹1,499/day (longer rentals from ₹499/day). Doorstep delivery across Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Kazhakkoottam & all Trivandrum areas.",
     url: `${SITE_CONFIG.url}/tv-rental`,
     type: "website",
   },
@@ -107,7 +107,7 @@ export default function TvRentalHubPage() {
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",
-      lowPrice: "799",
+      lowPrice: "499",
       highPrice: "1499",
       offerCount: "4",
       availability: "https://schema.org/InStock",
@@ -134,7 +134,7 @@ export default function TvRentalHubPage() {
         name: "How much does it cost to rent a TV in Trivandrum?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "TV rental in Trivandrum is ₹1,499 for 1-day events. Multi-day rates reduce as days increase: ₹1,199/day (2-3 days), ₹999/day (4-7 days), and ₹799/day (7-18 days). Delivery and setup are included within our service area.",
+          text: "TV rental in Trivandrum is ₹1,499 for 1-day events. Multi-day rates reduce as days increase: ₹999/day (2-3 days), ₹699/day (4-7 days), and ₹499/day (>7 days). Delivery and setup are included within our service area.",
         },
       },
       {
@@ -142,7 +142,7 @@ export default function TvRentalHubPage() {
         name: "Which areas in Trivandrum do you deliver TV rental?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "We deliver 43-inch Smart TV rental across Trivandrum including Attingal, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, Venjaramoodu, Kattakada, Technopark, Trivandrum City, and surrounding areas.",
+          text: "We deliver 43-inch Smart TV rentals across Trivandrum including Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, Venjaramoodu, Kattakada, Technopark, and Trivandrum City.",
         },
       },
       {
@@ -190,7 +190,7 @@ export default function TvRentalHubPage() {
         name: "What is the minimum rental period for a TV in Trivandrum?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "The minimum rental period is 1 day. We offer flexible plans from 1 day (₹1,499) to 18 days (reducing down to ₹799/day) to suit your needs.",
+          text: "The minimum rental period is 1 day. We offer flexible plans from 1 day (₹1,499) to 18 days (reducing down to ₹499/day for >7 days) to suit your needs.",
         },
       },
     ],
@@ -241,7 +241,7 @@ export default function TvRentalHubPage() {
           <p className="text-[#CBD5E1] text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
             Rent a <strong className="text-white">43-inch Smart TV</strong> in Thiruvananthapuram for events,
             birthday parties, wedding functions, gaming setups, and home use. Starting from{" "}
-            <strong className="text-[#38BDF8]">₹1,499/day</strong> (multi-day rates reduce down to <strong className="text-[#38BDF8]">₹799/day</strong>) with free doorstep delivery and full setup.
+            <strong className="text-[#38BDF8]">₹1,499/day</strong> (long-term rentals &gt;7 days reduce down to <strong className="text-[#38BDF8]">₹499/day</strong>) with free doorstep delivery and full setup.
           </p>
           <div className="flex flex-wrap justify-center gap-4 pt-2">
             <a href={tvWa} target="_blank" rel="noopener noreferrer">
@@ -452,8 +452,8 @@ export default function TvRentalHubPage() {
           </div>
           <div className="space-y-4">
             {[
-              { q: "How much does it cost to rent a TV in Trivandrum?", a: "TV rental in Trivandrum is ₹1,499 for 1-day events. Multi-day rates reduce as days increase: ₹1,199/day (2–3 days), ₹999/day (4–7 days), and ₹799/day (7–18 days). Delivery and setup are included within our service area." },
-              { q: "Which areas in Trivandrum do you deliver TV rental?", a: "We deliver across Attingal, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, Venjaramoodu, Kattakada, Technopark, and Trivandrum City. Contact us to confirm delivery for your specific location." },
+              { q: "How much does it cost to rent a TV in Trivandrum?", a: "TV rental in Trivandrum is ₹1,499 for 1-day events. Multi-day rates reduce as days increase: ₹999/day (2–3 days), ₹699/day (4–7 days), and ₹499/day (>7 days). Delivery and setup are included within our service area." },
+              { q: "Which areas in Trivandrum do you deliver TV rental?", a: "We deliver across Attingal, Alamcode, Mangalapuram, Pothencode, Pallippuram, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, Venjaramoodu, Kattakada, Technopark, and Trivandrum City. Contact us to confirm delivery for your specific location." },
               { q: "What is included in the TV rental?", a: "Every rental includes the 43-inch Smart TV, heavy-duty adjustable tripod stand, HDMI and power cables, doorstep delivery, on-site setup, installation, and end-of-rental pickup." },
               { q: "Can I rent a TV for just 1 day in Trivandrum?", a: "Yes! 1-day TV rental is available at ₹1,499 + delivery charges. We deliver, set up, and pick up the TV on your chosen date." },
               { q: "Can I rent a TV for a wedding or birthday party?", a: "Absolutely. Our 43-inch Smart TV with tripod stand is perfect for weddings, birthday parties, and local functions. We deliver to event halls, homes, and venues across Trivandrum." },

@@ -57,7 +57,7 @@ export function Hero() {
             className="mb-4"
           >
             <BadgeTag variant="glow" icon={<Rocket className="w-3.5 h-3.5 text-[#38BDF8]" />}>
-              ⚡ FAST DELIVERY: ATTINGAL • VENJARAMOODU • VARKALA • CHIRAYINKEEZHU • KATTAKADA • KAZHAKKOOTTAM
+              ⚡ FAST DELIVERY: ATTINGAL • ALAMCODE • MANGALAPURAM • POTHENCODE • PALLIPPURAM • VARKALA • KAZHAKKOOTTAM
             </BadgeTag>
           </motion.div>
 
@@ -205,7 +205,7 @@ export function Hero() {
                   </li>
                   <li className="flex items-center gap-2.5">
                     <Sparkles className="w-4 h-4 text-[#22D3EE] shrink-0" />
-                    <span><strong>Multi-Day Savings:</strong> Down to ₹799/day</span>
+                    <span><strong>Long-Term Rate:</strong> Down to ₹499/day (&gt;7 days)</span>
                   </li>
                   <li className="flex items-center gap-2.5">
                     <Truck className="w-4 h-4 text-[#22D3EE] shrink-0" />

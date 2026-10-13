@@ -89,7 +89,7 @@ export default async function TvRentalLocationPage({
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",
-      lowPrice: "799",
+      lowPrice: "499",
       highPrice: "1499",
       offerCount: "4",
       offers: TV_RENTAL_TIERS.map((tier) => ({

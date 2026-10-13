@@ -84,21 +84,20 @@ export function RentalSection() {
 
   const deliveryPlaces: { label: string; href?: string }[] = [
     { label: "Attingal (⚡ Express Delivery)", href: "/tv-rental/attingal" },
+    { label: "Alamcode & Attingal Bypass", href: "/tv-rental/alamcode" },
+    { label: "Mangalapuram (5-Min Delivery)", href: "/tv-rental/mangalapuram" },
+    { label: "Pothencode & Santhigiri", href: "/tv-rental/pothencode" },
+    { label: "Pallippuram & CRPF Camp", href: "/tv-rental/pallippuram" },
     { label: "Chirayinkeezhu & Kadakkavoor", href: "/tv-rental/chirayinkeezhu" },
-    { label: "Kazhakkoottam & Kariavattom", href: "/tv-rental/kazhakkoottam" },
+    { label: "Kazhakkoottam & Technopark", href: "/tv-rental/kazhakkoottam" },
     { label: "Varkala & Varkala Cliff", href: "/tv-rental/varkala" },
+    { label: "Kilimanoor", href: "/tv-rental/kilimanoor" },
     { label: "Vamanapuram", href: "/tv-rental/vamanapuram" },
     { label: "Kallambalam", href: "/tv-rental/kallambalam" },
-    { label: "Kilimanoor", href: "/tv-rental/kilimanoor" },
-    { label: "Venjaramoodu" },
-    { label: "Kattakada & Malayinkeezhu" },
-    { label: "Technopark Phase 1, 2 & 3" },
-    { label: "Technocity & Korani Junction" },
-    { label: "Kaniyapuram & Mangalapuram" },
-    { label: "Pothencode & Nedumangad" },
-    { label: "Kowdiar & Pattom" },
-    { label: "Vellayambalam & Poojappura" },
-    { label: "Trivandrum Central & Kovalam" },
+    { label: "Venjaramoodu", href: "/location/gaming-lounge-venjaramoodu" },
+    { label: "Kattakada & Malayinkeezhu", href: "/location/gaming-lounge-kattakada" },
+    { label: "Technocity & Korani Junction", href: "/location/gaming-lounge-technopark" },
+    { label: "Trivandrum City & Kowdiar", href: "/location/gaming-lounge-trivandrum" },
   ];
 
 
