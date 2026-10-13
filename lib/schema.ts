@@ -13,7 +13,7 @@ export function getLocalBusinessSchema() {
     description: SITE_CONFIG.metaDescription,
     telephone: SITE_CONFIG.contact.phone,
     email: SITE_CONFIG.contact.email,
-    priceRange: "₹89 - ₹499",
+    priceRange: "₹89 - ₹3,699",
     address: {
       "@type": "PostalAddress",
       streetAddress: SITE_CONFIG.location.streetAddress,
@@ -109,7 +109,7 @@ export function getRentalServiceSchema() {
       telephone: SITE_CONFIG.contact.phone,
       url: SITE_CONFIG.url,
       image: `${SITE_CONFIG.url}/hero-bg.png`,
-      priceRange: "₹89 - ₹499",
+      priceRange: "₹89 - ₹3,699",
       address: {
         "@type": "PostalAddress",
         streetAddress: SITE_CONFIG.location.streetAddress,
@@ -212,7 +212,7 @@ export function getRentalServiceSchema() {
         {
           "@type": "Product",
           name: "43\" Smart TV Rental with Tripod Stand",
-          description: "43 inch Smart TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, and trade shows in Trivandrum. Starting from ₹499/day.",
+          description: "43 inch Smart TV rental with heavy-duty tripod stand, transport, and installation for weddings, birthdays, corporate events, and trade shows in Trivandrum. 1-Day rental at ₹1,499, multi-day from ₹799/day.",
           image: [
             `${SITE_CONFIG.url}/lounge-setup.png`,
             `${SITE_CONFIG.url}/hero-bg.png`,
@@ -224,8 +224,8 @@ export function getRentalServiceSchema() {
           offers: {
             "@type": "AggregateOffer",
             url: `${SITE_CONFIG.url}/rentals`,
-            lowPrice: "299",
-            highPrice: "499",
+            lowPrice: "799",
+            highPrice: "1499",
             priceCurrency: "INR",
             offerCount: "4",
             priceValidUntil: "2027-12-31",

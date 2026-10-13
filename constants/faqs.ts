@@ -80,14 +80,14 @@ export const FAQS_LIST: FAQItem[] = [
     id: "faq-tv-rental-trivandrum",
     question: "Do you offer TV rental service in Trivandrum?",
     answer:
-      "Yes! DPS Gaming Hub provides 43-inch Smart TV rental across Trivandrum (Thiruvananthapuram) starting from ₹499/day. We deliver to Attingal, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, and surrounding areas with full setup included.",
+      "Yes! DPS Gaming Hub provides 43-inch Smart TV rental across Trivandrum (Thiruvananthapuram) starting from ₹1,499/day for 1-day rentals, with reduced rates down to ₹799/day for multi-day rentals. We deliver to Attingal, Chirayinkeezhu, Kazhakkoottam, Varkala, Vamanapuram, Kallambalam, Kilimanoor, and surrounding areas with full setup included.",
     category: "TV Rental",
   },
   {
     id: "faq-tv-rental-price",
     question: "What is the cost of TV rental in Trivandrum?",
     answer:
-      "TV rental in Trivandrum starts at ₹499/day (1 day). Multi-day plans: ₹399/day (2–3 days), ₹349/day (4–7 days), ₹299/day (7–18 days). Delivery, setup, and pickup are included.",
+      "TV rental in Trivandrum is ₹1,499 for 1-day events. As your rental days increase, the price reduces: ₹1,199/day (2–3 days), ₹999/day (4–7 days), and ₹799/day (7–18 days). Delivery, heavy-duty tripod stand, setup, and pickup are included.",
     category: "TV Rental",
   },
   {

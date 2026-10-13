@@ -60,7 +60,7 @@ export function WhatsAppButton() {
                 <span>Rent 43&quot; QLED TV</span>
               </div>
               <span className="px-2 py-0.5 rounded bg-[#06B6D4]/20 text-[#22D3EE] font-bold text-[10px]">
-                from ₹499/day
+                from ₹1,499/day
               </span>
             </a>
 

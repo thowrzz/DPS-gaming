@@ -25,7 +25,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Rent a 43-inch Smart TV in Attingal for gaming sessions, birthday parties, wedding functions, and any event. Doorstep delivery with full setup included.",
     metaTitle: "43 Inch TV Rental in Attingal | TV for Events, Gaming & Functions",
     metaDescription:
-      "Rent 43-inch Smart TV in Attingal starting ₹499/day. Perfect for birthday parties, weddings, gaming events & corporate functions. Doorstep delivery with setup. Call or WhatsApp now.",
+      "Rent 43-inch Smart TV in Attingal starting ₹1,499/day (multi-day from ₹799/day). Perfect for birthday parties, weddings, gaming events & corporate functions. Doorstep delivery with setup. Call or WhatsApp now.",
     keywords: [
       "TV rental Attingal",
       "43 inch TV rental Attingal",
@@ -79,7 +79,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     faqs: [
       {
         q: "Can I rent a TV for just one day in Attingal?",
-        a: "Yes! Our 1-day TV rental in Attingal starts at ₹499 + delivery charges. We deliver, set up, and pick up the TV at your convenience.",
+        a: "Yes! Our 1-day TV rental in Attingal is ₹1,499 + delivery charges (with multi-day rates reducing down to ₹799/day). We deliver, set up, and pick up the TV at your convenience.",
       },
       {
         q: "Do you deliver TV rental to Attingal for events?",
@@ -105,7 +105,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Affordable 43-inch Smart TV on rent in Chirayinkeezhu. Daily, weekly & monthly rental available for parties, functions, and gaming. We deliver and install at your doorstep.",
     metaTitle: "TV Rental in Chirayinkeezhu | Smart TV for Rent | DPS Gaming Hub",
     metaDescription:
-      "Rent Smart TV in Chirayinkeezhu from ₹499/day. We deliver 43-inch TVs with stand for events, birthday parties & home use across Chirayinkeezhu, Sharkara & Kadakkavoor.",
+      "Rent Smart TV in Chirayinkeezhu from ₹1,499/day (multi-day from ₹799/day). We deliver 43-inch TVs with stand for events, birthday parties & home use across Chirayinkeezhu, Sharkara & Kadakkavoor.",
     keywords: [
       "TV rental Chirayinkeezhu",
       "Smart TV rent Chirayinkeezhu",
@@ -132,7 +132,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       },
       {
         title: "Temporary Home Setup",
-        desc: "Need a TV for a few days in Chirayinkeezhu? Our flexible multi-day plans starting ₹299/day save you from buying.",
+        desc: "Need a TV for a few days in Chirayinkeezhu? Our flexible multi-day plans starting ₹799/day save you from buying.",
       },
     ],
     landmarks: [
@@ -157,7 +157,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     faqs: [
       {
         q: "Do you rent TVs in Chirayinkeezhu?",
-        a: "Yes! We deliver 43-inch Smart TVs to Chirayinkeezhu and nearby areas like Sharkara, Kadakkavoor, and Perunguzhi. Booking starts at ₹499/day.",
+        a: "Yes! We deliver 43-inch Smart TVs to Chirayinkeezhu and nearby areas like Sharkara, Kadakkavoor, and Perunguzhi. 1-Day booking is ₹1,499, and multi-day rates reduce down to ₹799/day.",
       },
       {
         q: "What is included in the TV rental in Chirayinkeezhu?",
@@ -179,7 +179,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Premium 43-inch Smart TV on rent in Kazhakkoottam and Technopark area. Ideal for IT team events, gaming tournaments, corporate expos, and home entertainment.",
     metaTitle: "43 Inch Smart TV Rental in Kazhakkoottam | Gaming & Event TV Rent",
     metaDescription:
-      "Rent 43-inch Smart TV in Kazhakkoottam from ₹499/day. Best TV rental for Technopark events, corporate meets, gaming setups & birthday parties. Fast doorstep delivery.",
+      "Rent 43-inch Smart TV in Kazhakkoottam from ₹1,499/day (multi-day from ₹799/day). Best TV rental for Technopark events, corporate meets, gaming setups & birthday parties. Fast doorstep delivery.",
     keywords: [
       "TV rental Kazhakkoottam",
       "43 inch TV rental Kazhakkoottam",
@@ -236,7 +236,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       },
       {
         q: "What is the rental rate for a TV in Kazhakkoottam?",
-        a: "TV rental starts at ₹499/day (1 day). Multi-day plans are available: ₹399/day (2-3 days), ₹349/day (4-7 days), ₹299/day (7-18 days).",
+        a: "TV rental is ₹1,499/day for 1 day. Multi-day plans: ₹1,199/day (2-3 days), ₹999/day (4-7 days), ₹799/day (7-18 days).",
       },
       {
         q: "Can I rent a PS5 with the TV near Kazhakkoottam?",
@@ -255,10 +255,10 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     district: "Thiruvananthapuram",
     heroHeading: "Smart TV Rental in Vamanapuram | 43 Inch TV for Rent",
     subheading:
-      "Get a 43-inch Smart TV delivered to your home or event venue in Vamanapuram. Flexible daily and weekly rental plans starting ₹499. Setup included.",
+      "Get a 43-inch Smart TV delivered to your home or event venue in Vamanapuram. Flexible daily and weekly rental plans starting ₹1,499 (multi-day from ₹799/day). Setup included.",
     metaTitle: "Smart TV Rental in Vamanapuram | 43 Inch TV for Rent | DPS Gaming Hub",
     metaDescription:
-      "Rent 43-inch Smart TV in Vamanapuram from ₹499/day. We deliver to homes, event halls, and venues across Vamanapuram with full setup. WhatsApp to book now.",
+      "Rent 43-inch Smart TV in Vamanapuram from ₹1,499/day (multi-day from ₹799/day). We deliver to homes, event halls, and venues across Vamanapuram with full setup. WhatsApp to book now.",
     keywords: [
       "TV rental Vamanapuram",
       "Smart TV rent Vamanapuram",
@@ -307,7 +307,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     faqs: [
       {
         q: "Do you offer TV rental in Vamanapuram?",
-        a: "Yes! We deliver 43-inch Smart TVs to Vamanapuram and nearby areas. Rental starts at ₹499/day with full setup included.",
+        a: "Yes! We deliver 43-inch Smart TVs to Vamanapuram and nearby areas. Rental is ₹1,499 for 1 day with full setup included (multi-day from ₹799/day).",
       },
       {
         q: "What sizes of TV are available for rent near Vamanapuram?",
@@ -315,7 +315,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       },
       {
         q: "Can I rent a TV for a week in Vamanapuram?",
-        a: "Yes! Our 4-7 day plan is ₹349/day and the 7-18 day plan is ₹299/day. Great for extended family visits or longer events.",
+        a: "Yes! Our 4-7 day plan is ₹999/day and the 7-18 day plan is ₹799/day. Great for extended family visits or longer events.",
       },
     ],
   },
@@ -329,7 +329,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Rent a 43-inch Smart TV in Kallambalam for parties, wedding functions, gaming events, and temporary home use. We deliver, setup, and pickup at your convenience.",
     metaTitle: "TV Rental Kallambalam | 43 Inch Smart TV for Rent | DPS Gaming Hub",
     metaDescription:
-      "43-inch Smart TV on rent in Kallambalam starting ₹499/day. Doorstep delivery for events, parties, gaming setups and temporary home use. Full setup included. WhatsApp to book.",
+      "43-inch Smart TV on rent in Kallambalam starting ₹1,499/day (multi-day from ₹799/day). Doorstep delivery for events, parties, gaming setups and temporary home use. Full setup included. WhatsApp to book.",
     keywords: [
       "TV rental Kallambalam",
       "43 inch TV rental Kallambalam",
@@ -378,7 +378,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     faqs: [
       {
         q: "Is TV rental available in Kallambalam?",
-        a: "Yes! We deliver 43-inch Smart TVs to Kallambalam and surrounding areas starting ₹499/day with full setup included.",
+        a: "Yes! We deliver 43-inch Smart TVs to Kallambalam and surrounding areas starting at ₹1,499/day (multi-day from ₹799/day) with full setup included.",
       },
       {
         q: "How do I book a TV rental in Kallambalam?",
@@ -400,7 +400,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Rent 43-inch Smart TV in Varkala for beach resorts, homestays, party events, and gaming sessions. We deliver to Varkala Cliff, North Cliff, South Cliff, and Varkala town.",
     metaTitle: "TV Rental in Varkala | 43 Inch Smart TV for Rent | DPS Gaming Hub",
     metaDescription:
-      "43-inch Smart TV rental in Varkala starting ₹499/day. Delivered to resorts, homestays, party venues across Varkala Cliff & town. Full setup included. WhatsApp to book.",
+      "43-inch Smart TV rental in Varkala starting ₹1,499/day (multi-day from ₹799/day). Delivered to resorts, homestays, party venues across Varkala Cliff & town. Full setup included. WhatsApp to book.",
     keywords: [
       "TV rental Varkala",
       "Smart TV rent Varkala",
@@ -457,7 +457,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       },
       {
         q: "What is the TV rental rate in Varkala?",
-        a: "TV rental in Varkala starts at ₹499/day (1 day) with multi-day rates: ₹399/day (2-3 days), ₹349/day (4-7 days), ₹299/day (7-18 days).",
+        a: "TV rental in Varkala is ₹1,499/day (1 day) with reduced multi-day rates: ₹1,199/day (2-3 days), ₹999/day (4-7 days), ₹799/day (7-18 days).",
       },
       {
         q: "Can you set up the TV at a beach resort in Varkala?",
@@ -479,7 +479,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
       "Rent a 43-inch Smart TV in Kilimanoor for home use, wedding functions, birthday parties, and gaming events. Doorstep delivery with setup across Kilimanoor and nearby areas.",
     metaTitle: "TV Rental in Kilimanoor | Smart TV for Rent | DPS Gaming Hub",
     metaDescription:
-      "43-inch Smart TV rental in Kilimanoor from ₹499/day. We deliver to homes and events across Kilimanoor, Vamanapuram & nearby areas with full installation. WhatsApp to book.",
+      "43-inch Smart TV rental in Kilimanoor from ₹1,499/day (multi-day from ₹799/day). We deliver to homes and events across Kilimanoor, Vamanapuram & nearby areas with full installation. WhatsApp to book.",
     keywords: [
       "TV rental Kilimanoor",
       "Smart TV rent Kilimanoor",
@@ -529,7 +529,7 @@ export const TV_LOCATION_PAGES: Record<string, TvLocationPage> = {
     faqs: [
       {
         q: "Do you provide TV rental service in Kilimanoor?",
-        a: "Yes! We deliver 43-inch Smart TVs to Kilimanoor and nearby areas including Vamanapuram and Kallambalam. Starts at ₹499/day.",
+        a: "Yes! We deliver 43-inch Smart TVs to Kilimanoor and nearby areas including Vamanapuram and Kallambalam. Starts at ₹1,499 for 1-day (multi-day from ₹799/day).",
       },
       {
         q: "What is included in the TV rental in Kilimanoor?",

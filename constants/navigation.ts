@@ -18,12 +18,14 @@ export const MAIN_NAV_ITEMS: NavItem[] = [
   { label: "Contact", href: "/contact" },
 ];
 
+
+
 export const FOOTER_SECTIONS = [
   {
     title: "TV & Console Rentals",
     links: [
       { label: "PS5 Console Rental (₹949/day)", href: "/rentals#ps5-rental" },
-      { label: "43\" Smart TV Rental (from ₹499/day)", href: "/tv-rental" },
+      { label: "43\" Smart TV Rental (from ₹1,499/day)", href: "/tv-rental" },
       { label: "PS5 + TV Combo Setup", href: "/tv-rental" },
       { label: "Wedding & Event Displays", href: "/tv-rental" },
       { label: "Corporate Expo Rentals", href: "/tv-rental" },

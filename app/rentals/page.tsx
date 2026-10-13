@@ -8,9 +8,9 @@ import { LocationMapSection } from "@/components/sections/LocationMapSection";
 import { SITE_CONFIG } from "@/constants/site";
 
 export const metadata: Metadata = {
-  title: "PS5 Console & 43\" Smart TV Rentals in Trivandrum | DPS Gaming Hub",
+  title: "PS5 Rental Trivandrum | 43\" Smart TV for Rent | DPS Gaming Hub",
   description:
-    "Rent PS5 Console for ₹949/day and 43\" Smart TV from ₹499/day in Trivandrum, Attingal, Kazhakkoottam, Varkala & Chirayinkeezhu. Free doorstep delivery, setup & installation for events, weddings & birthday parties.",
+    "Rent PS5 Console for ₹949/day and 43\" Smart TV from ₹1,499/day (multi-day from ₹799/day) in Trivandrum, Attingal, Kazhakkoottam, Varkala & Chirayinkeezhu. Free doorstep delivery, setup & installation for events, weddings & birthday parties.",
   keywords: [
     // PS5 Keywords
     "PS5 Rental Trivandrum",

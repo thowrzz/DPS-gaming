@@ -70,7 +70,7 @@ export function Hero() {
             className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight leading-[1.08] text-white max-w-5xl"
           >
             Rent <span className="text-gradient-blue">PS5 Console</span> &amp;{" "}
-            <span className="text-gradient-cyan">43&quot; QLED TV</span>
+            <span className="text-gradient-cyan">43&quot; Smart TV</span> in Trivandrum
           </motion.h1>
 
           <motion.p
@@ -190,9 +190,9 @@ export function Hero() {
 
                 {/* Price Display */}
                 <div className="my-4 p-4 rounded-2xl bg-[#030712]/80 border border-[#1E293B] flex items-baseline justify-between">
-                  <span className="text-xs uppercase tracking-widest text-[#94A3B8] font-semibold">FROM</span>
+                  <span className="text-xs uppercase tracking-widest text-[#94A3B8] font-semibold">1-DAY EVENT</span>
                   <div className="flex items-baseline gap-1">
-                    <span className="text-3xl sm:text-4xl font-extrabold text-white">₹499</span>
+                    <span className="text-3xl sm:text-4xl font-extrabold text-white">₹1,499</span>
                     <span className="text-xs text-[#94A3B8]">/day</span>
                   </div>
                 </div>
@@ -202,6 +202,10 @@ export function Hero() {
                   <li className="flex items-center gap-2.5">
                     <Tv className="w-4 h-4 text-[#22D3EE] shrink-0" />
                     <span><strong>43&quot; QLED TV + Tripod Stand</strong> Included</span>
+                  </li>
+                  <li className="flex items-center gap-2.5">
+                    <Sparkles className="w-4 h-4 text-[#22D3EE] shrink-0" />
+                    <span><strong>Multi-Day Savings:</strong> Down to ₹799/day</span>
                   </li>
                   <li className="flex items-center gap-2.5">
                     <Truck className="w-4 h-4 text-[#22D3EE] shrink-0" />

@@ -22,28 +22,28 @@ export interface TvRentalTier {
 export const TV_RENTAL_TIERS: TvRentalTier[] = [
   {
     duration: "1 Day",
-    price: "₹499",
+    price: "₹1,499",
     perDay: "+ delivery charges",
-    badge: "Quick Rental",
+    badge: "1-Day Event",
   },
   {
     duration: "2–3 Days",
-    price: "₹399",
+    price: "₹1,199",
     perDay: "/day",
     highlight: true,
-    badge: "Popular",
+    badge: "Popular (Save ₹300/day)",
   },
   {
     duration: "4–7 Days",
-    price: "₹349",
+    price: "₹999",
     perDay: "/day",
-    badge: "Best Value",
+    badge: "Best Value (Save ₹500/day)",
   },
   {
     duration: "7–18 Days",
-    price: "₹299",
+    price: "₹799",
     perDay: "/day",
-    badge: "Long Term",
+    badge: "Long Term (Best Savings)",
   },
 ];
 
@@ -54,7 +54,7 @@ export const TV_RENTAL_NOTES = [
   },
   {
     label: "Additional Days",
-    value: "Charged according to the applicable rental plan/rate.",
+    value: "Charged according to the applicable rental plan/rate — daily rate reduces as your rental duration increases.",
   },
   {
     label: "Payment",
@@ -89,21 +89,21 @@ export const RENTAL_TIERS: PricingTier[] = [
   {
     id: "tv-rental",
     name: "43\" Smart TV Rental",
-    price: "₹499",
-    duration: "from / Day",
+    price: "₹1,499",
+    duration: "1 Day (from ₹799/day for multi-day)",
     popular: true,
     category: "rental",
     tagline: "Rent It. Love It — 1 Day to 18 Days, Best Rate Every Time",
     features: [
       "43\" Ultra High Definition Smart Display",
       "Heavy Duty Adjustable Tripod Stand Included",
-      "2–3 Days: ₹399/day | 4–7 Days: ₹349/day",
-      "7–18 Days: ₹299/day (Long-Term Best Value)",
+      "1 Day: ₹1,499 | 2–3 Days: ₹1,199/day",
+      "4–7 Days: ₹999/day | 7–18 Days: ₹799/day",
       "We Handle Transport, Setup & On-Site Installation",
       "Weddings, Birthdays, Gaming Events & Trade Shows",
     ],
     ctaText: "Book TV Rental on WhatsApp",
-    whatsappMessage: "Hello DPS Gaming Hub! I want to rent a 43\" Smart TV. Please share pricing and availability.",
+    whatsappMessage: "Hello DPS Gaming Hub! I want to rent a 43\" Smart TV (₹1,499/day). Please share pricing and availability.",
   },
   {
     id: "ps5-tv-combo",
